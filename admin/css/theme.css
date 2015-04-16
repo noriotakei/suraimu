@@ -1,0 +1,398 @@
+/* LAYOUT MODULE */
+#KingCol {
+    background: #FFFFFF;
+}
+
+#MenuCol {
+    background: #FFFFFF;
+    width: 200px;
+    padding: 10px;
+}
+
+#HeadCol {
+    padding: 0px;
+}
+
+#FootCol {
+    padding: 10px;
+    font-size: 77%;
+    color: #666666;
+    border-top: 1px solid #999999;
+    text-align: center;
+}
+
+#QueenCol {
+    padding: 15px;
+    position: relative;
+    background: white;
+}
+
+#LeftCol {
+    width: 200px;
+    float: left;
+    position: relative;
+    z-index: 1;
+}
+
+#RightCol {
+    float: left;
+    width: 100%;
+    margin-left: -200px; *
+    clear: right;
+    position: relative;
+    z-index: 0;
+}
+
+#ContentsCol {
+    padding: 25px;
+    background: #FFFFFF;
+}
+
+#RightColFloatHack {
+    margin-left: 220px;
+}
+
+/* HEAD MODULE */
+#HeadLeft {
+    float: left;
+}
+
+#HeadRight {
+    float: right;
+}
+
+/* MENU MODULE */
+.MenuH3 {
+    background: #cccc00;
+    padding: 5px;
+    font-size: 100%;
+    border: 1px solid #999999;
+    border-bottom: none;
+    color: #000000;
+    width: 190px;
+}
+
+.MenuBox {
+    margin-bottom: 15px;
+    padding: 5px;
+    border: 1px solid #999999;
+    background-color: #FFFFFF;
+    width: 190px;
+}
+
+.MenuBox a {
+    text-decoration: none;
+}
+
+.MenuBox li {
+    margin-bottom: 5px;
+    border-bottom: 1px dotted #CCCCCC;
+    padding-bottom: 2px;
+}
+
+.MenuBox img {
+    margin: auto;
+    display: block;
+}
+
+/* TABLE MODULE */
+.TableSet01 {
+    border: 1px solid #666666;
+    background-color: #FFFFFF;
+}
+
+.TableSet01 td {
+    border: 1px solid #666666;
+    padding: 3px 5px;
+    line-height: 140%;
+    text-align: right;
+}
+
+.TableSet01 th {
+    background: #cccc00;
+    border: 1px solid #666666;
+    padding: 3px 5px;
+    line-height: 140%;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.TableSet01 th a:link {
+    color: #0000FF;
+}
+
+.TableSet01 th a:visited {
+    color: #0000FF;
+}
+
+.TableSet01 th a:hover {
+    color: #339999;
+}
+
+.TableSet02 {
+    border: 1px solid #666666;
+    background-color: #FFFFFF;
+}
+
+.TableSet02 td {
+    border: 1px solid #666666;
+    padding: 5px 8px;
+    line-height: 140%;
+    text-align: right;
+}
+
+.TableSet02 th {
+    background: #cccc00;
+    border: 1px solid #666666;
+    padding: 5px 8px;
+    line-height: 140%;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.TableSet02 th a:link {
+    color: #0000FF;
+}
+
+.TableSet02 th a:visited {
+    color: #0000FF;
+}
+
+.TableSet02 th a:hover {
+    color: #339999;
+}
+
+.TableSet03 {
+    border: 1px solid #666666;
+    background-color: #FFFFFF;
+}
+
+.TableSet03 td {
+    border: 1px solid #666666;
+    padding: 5px 8px;
+    line-height: 22px;
+    text-align: right;
+}
+
+.TableSet03 th {
+    background: #cccc00;
+    border: 1px solid #666666;
+    padding: 5px 8px;
+    line-height: 22px;
+    width: 120px;
+    color: #000000;
+}
+
+.TableSet03 th a:link {
+    color: #0000FF;
+}
+
+.TableSet03 th a:visited {
+    color: #0000FF;
+}
+
+.TableSet03 th a:hover {
+    color: #339999;
+}
+
+.TableSet04 {
+    border: 1px solid #666666;
+    background-color: #FFFFFF;
+}
+
+.TableSet04 td {
+    border: 1px solid #666666;
+    padding: 5px 8px;
+    line-height: 22px;
+    text-align: left;
+}
+
+.TableSet04 th {
+    background: #cccc00;
+    border: 1px solid #666666;
+    padding: 5px 8px;
+    line-height: 22px;
+    color: #000000;
+}
+
+.TableSet04 th a:link {
+    color: #0000FF;
+}
+
+.TableSet04 th a:visited {
+    color: #0000FF;
+}
+
+.TableSet04 th a:hover {
+    color: #339999;
+}
+
+.TableSetAjax01 {
+    border: 1px solid #666666;
+    background-color: #FFFFFF;
+    margin: 0 auto 0 auto;
+}
+
+.TableSetAjax01 td {
+    border: 1px solid #666666;
+    padding: 3px 5px;
+    line-height: 140%;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.TableSetAjax01 th {
+    background: #cccc00;
+    border: 1px solid #666666;
+    padding: 3px 5px;
+    line-height: 140%;
+    color: #000000;
+    white-space: nowrap;
+}
+
+.TableSetAjax01 th a:link {
+    color: #0000FF;
+}
+
+.TableSetAjax01 th a:visited {
+    color: #0000FF;
+}
+
+.TableSetAjax01 th a:hover {
+    color: #339999;
+}
+
+/* LOGIN MODULE */
+#LoginForm {
+    background-color: #FFFFFF;
+    border: 1px solid #999999;
+    margin-bottom: 80px;
+}
+
+#LoginTitle {
+    padding-top: 5px;
+    background: url(../img/login_key.jpg) no-repeat top left;
+    text-indent: 35px;
+    height: 33px;
+}
+
+#LoginForm td {
+    padding: 30px 15px;;
+    font-family: "Courier New", Courier, mono;
+    font-size: 114%;
+    color: #CC0000;
+}
+
+#LoginForm input {
+    margin-left: 5px;
+}
+
+/* LOGOUT MODULE */
+#Logout {
+    width: 65px;
+}
+
+#Logout a {
+    display: block;
+    padding: 5px 8px;
+    background-color: #E5E5E5;
+    border: 3px double #CCCCCC;
+}
+
+#Logout a {
+    text-decoration: none;
+    font-size: 100%;
+    line-height: 100%;
+    height: 13px
+}
+
+#Logout a:hover {
+    background-color: #666666;
+    color: #FFFFFF;
+}
+
+/* PARTS MODULE */
+.BlockCol {
+    padding: 25px;
+}
+
+.SiteName {
+    margin: 30px 15px 20px 15px;
+    border-left: 8px solid #999999;
+    border-bottom: 2px solid #CCCCCC;
+    padding: 5px;
+}
+
+.ContentTitle {
+    margin: 10px 15px 20px 15px;
+    border-left: 8px solid #999999;
+    border-bottom: 2px solid #CCCCCC;
+    padding: 5px;
+}
+
+.SubMenu {
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+.SubMenu input,select {
+    margin-right: 5px;
+    line-height: 1.5em;
+}
+
+.BgColor00 {
+    background-color: #FFFFFF;
+}
+
+.BgColor01 {
+    background-color: #E5E5E5;
+}
+
+.BgColor02 {
+    background-color: #CCCCCC;
+}
+
+.BgColor03 {
+    background-color: #999999;
+}
+
+.BgColor04 {
+    background-color: #CCCCCC;
+}
+
+.BgColor05 {
+    background-color: #FFFFCC;
+}
+
+.BgColor06 {
+    background-color: #FFFF99;
+}
+
+/* button */
+.Button {
+    width: 110px;
+    font-size: 8pt;
+}
+
+.warning {
+    width: 300px;
+}
+
+.affected {
+    background-color: #FFFFCC;
+}
+
+/* reload */
+.reload {
+    position: fixed;
+    text-align: right;
+    width: 98%;
+    height: 20px;
+    top: 10px;
+    left: 0px;
+    margin: 0px;
+}
+
+.reload input,select {
+    vertical-align: bottom;
+}

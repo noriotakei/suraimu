@@ -1,0 +1,42 @@
+/* GLOBAL RESET */
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td{ margin:0; padding:0; }
+table{ border-collapse:collapse; border-spacing:0; }
+fieldset,img{ border:0; }
+address,caption,cite,code,dfn,em,strong,th,var{ font-style:normal; font-weight:normal; }
+ol,ul{ list-style:none; }
+caption,th{ text-align:left; }
+h1,h2,h3,h4,h5,h6{ font-size:100%; }
+q:before,q:after{ content:''; }
+abbr,acronym{ border:0; }
+/* DEFAULT MODULE */
+body{ font-size:13px; *font-size:small; _font:x-small; *word-wrap:break-word; background:#FFFFFF; font-family:"‚l‚r ‚oƒSƒVƒbƒN", Osaka, "ƒqƒ‰ƒMƒmŠpƒS Pro W3"; }
+table{ font-size:inherit; font:100%; }
+select,input,textarea{ font-size:99%; }
+
+a{ text-decoration:underline; }
+a:link{ color:#0000FF; }
+a:visited{ color:#0000FF; }
+a:hover{ color:#339999; }
+
+/*========================================================================
+
+    Font-size Adjustment
+
+    77% = 10px  |   122% = 16px |   167% = 22px
+    85% = 11px  |   129% = 17px |   174% = 23px
+    92% = 12px  |   136% = 18px |   182% = 24px
+    100% = 13px |   144% = 19px |   189% = 25px
+    107% = 14px |   152% = 20px |   197% = 26px
+    114% = 15px |   159% = 21px |
+
+=========================================================================*/
+h1{ font-size:189%; }
+h2{ font-size:159%; }
+h3{ font-size:144%; }
+h4{ font-size:122%; }
+h5{ font-size:107%; }
+h6{ font-size:107%; }
+/* LAYOUT MODULE */
+.ClearBox{ zoom:100%; }
+.ClearBox:after{ content:""; clear:both; height:0; display:block; visibility:hidden; }
+

@@ -1,0 +1,43 @@
+ul.pager {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+    text-align: center;
+    font-size:16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul.pager li {
+    list-style-type: none;
+    display: inline;
+    margin: 0.25em;
+    padding: 0;
+    background: none;
+    line-height: 1;
+}
+ul.pager li strong {
+    display: -moz-inline-box;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    line-height: 1;
+    background: #EEEEEE;
+    border: 1px #CCCCCC solid;
+    font-weight: bold;
+}
+ul.pager li a {
+    display: -moz-inline-box;
+    display: inline-block;
+    padding: 0.25em 0.4em;
+    border: 1px #CCCCCC solid;
+    line-height: 1;
+}
+ul.pager li a:link,
+ul.pager li a:visited {
+    color: #0033FF;
+    border-color: #CCCCCC;
+}
+ul.pager li a:hover,
+ul.pager li a:active{
+    border-color: #003399;
+    background-color: #003399;
+    color: #FFFFFF;
+}

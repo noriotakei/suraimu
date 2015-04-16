@@ -1,0 +1,1 @@
+<?php $isMaintenance = 0 ?>
