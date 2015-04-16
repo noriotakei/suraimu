@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+@import url("default.css");
+@import url("global.css");
+@import url("font.css");
+@import url("layout.css");
+@import url("style.css");
+@import url("module.css");
+
+
+/* 下記、ハックの読み込みは要件により適宜 */
+
+/* Mac Internet Explorer5.x用css読み込み */
+/*\*//*/
+	@import "mac-ie5x.css";
+/**/
+
+
+/* Windows Internet Explorer5.x用css読み込み */
+@media tty {
+	i{content:"\";/* " " */}} @import 'win-ie5x.css'; /* ";}
+}/*  */
+
+
+/* Windows Internet Explorer5.0用css読み込み */
+@media ty {
+	i{content:"\";/* " " */}}; @import 'win-ie50.css'; {;}/* ":}

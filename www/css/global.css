@@ -1,0 +1,341 @@
+@charset "utf-8";
+
+
+/*=====================================================
+wrapper
+=====================================================*/
+#wrap {
+	width:896px;
+	background:#FFF url(../img/bg_shadow.png) top center repeat-y;
+	margin:0 auto;
+	}
+
+
+/*=====================================================
+hyper link set
+=====================================================*/
+
+/* basic
+--------------------------------------------------------------------------------- */
+body {
+	background:#fff url(../img/bg_grand.gif) top left;
+	text-align: center;
+	background: #FFF;
+	color: #333;
+	line-height: 1.6;
+}
+
+a { outline:none;	overflow:hidden;}
+
+a:link,
+a:visited {
+	color: #C00;
+	}
+
+a:hover,
+a:active {
+	color: #CCC;
+	text-decoration: none;
+	}
+
+#centerP{
+	text-align:center;
+	font-size:123.1%;
+}
+
+/* #form
+--------------------------------------------------------------------------------- */
+form input,
+form select,
+form textarea {
+	padding: 2px;
+	}
+	
+#formBg {
+	width:550px;
+	margin:0 20px 0 20px;
+	background:#004D1F url(../img/form_top.gif) center top no-repeat;
+	text-align:center;
+	}
+
+#formIn {
+	padding:10px;
+	background:url(../img/form_bottom.gif) center bottom no-repeat;
+	color:#FFF;
+	font-size:116%;
+	font-weight:bold;
+	text-align:center;
+	}
+#formInLeft {
+	padding:10px;
+	background:url(../img/form_bottom.gif) center bottom no-repeat;
+	color:#FFF;
+	font-size:116%;
+	font-weight:bold;
+	text-align:left;
+	}
+	
+#formLeft{
+	float:left;
+	padding-left:30px;
+	}
+#formRight{
+	float:right;
+	}
+
+
+#loginId,#loginPass{
+	width: 110px;
+	}
+
+#mobile{
+	width: 180px;
+	margin-bottom:10px;
+	font-size:77%;
+	color:#000;
+	}
+#mobileSelect{
+	width: 198px;
+	margin-bottom:10px;
+	font-size:77%;
+	color:#000;
+	}
+
+#mailRegist{
+	width: 324px;
+	height:46px;
+	font-size:300%;
+	margin:0px 0 10px 0;
+	color:#000;
+}
+
+#mailCustomer{
+	width: 205px;
+	font-size:100%;
+	margin:0px 0 10px 0;
+	color:#000;
+}
+
+#mailSelect{
+	width: 205px;
+	font-size:100%;
+	margin:0px 0 10px 0;
+	color:#000;
+}
+#areaCustomer{
+	width: 430px;
+	font-size:100%;
+	margin:0px 0 10px 0;
+	color:#000;
+}
+#spcheck{
+	:0 10px;;
+}
+
+/* close
+--------------------------------------------------------------------------------- */
+
+#close {
+	text-align:center;
+	padding:10px 0;
+	text-indent:-999em;
+}
+
+#close a {
+	display:block;
+	width:140px;
+	height:40px;
+	padding-top:5px;
+	color:#FFF;
+	background:url(../img/bt_close.gif) no-repeat left;
+	text-decoration:none;
+	margin:10px auto;
+}
+
+#close a:hover,#close a:focus {
+	display:block;
+	width:140px;
+	height:40px;
+	padding-top:5px;
+	color:#FFF;
+	background:url(../img/bt_close.gif) no-repeat right;
+	text-decoration:none;
+	margin:10px auto;
+}
+
+/* error
+--------------------------------------------------------------------------------- */
+.err{
+	color:#F00;
+	font-size:138.5%;
+	font-weight:bold;
+	text-align:center;
+	}
+#err{
+	background:#F00;
+	color:#000;
+	font-size:138.5%;
+	font-weight:bold;
+	text-align:center;
+	}
+
+/* attention
+--------------------------------------------------------------------------------- */
+.attention{
+	color:#F00;
+	text-align:left;
+}
+.attentionY{
+	color:#F8F035;
+	text-align:left;
+}
+#attention{
+	color:#F00;
+	text-align:left;
+}
+
+/* table
+-------------------------------------------------------------------------------- */
+.tableItem{
+	width:530px;
+	background-color:#FFF;
+	border-spacing: 10px;
+	empty-cells:show;
+	margin:10px 20px 0 20px;
+	color:#000;
+	font-size:100%;
+}
+.tableItem th{
+	width:120px;
+	padding:5px;
+	margin:2px;
+	background: #FFFA94;
+	border:#878787 solid 1px;
+	font-weight:bold;
+	text-align:center;
+}
+.tableItem th.cols{
+	padding:5px;
+	margin:2px;
+	background: #FFFA94;
+	border:#878787 solid 1px;
+	font-weight:bold;
+	text-align:center;
+}
+.tableItem td{
+	padding:5px;
+	margin:2px;
+	background: #FFF;
+	border:#878787 solid 1px;
+	font-weight:bold;
+	text-align:center;
+}
+.tableItem td.img{
+	width:100px;
+	padding:5px;
+	margin:2px;
+	background: #FFF;
+	border:#878787 solid 1px;
+	font-weight:bold;
+	text-align:center;
+}
+
+.tableItem td.end{
+	padding:5px;
+	margin:2px;
+	background: #333;
+	border:#878787 solid 1px;
+	font-size:77%;
+	text-align:right;
+}
+.tableItem a{
+	color:#F00;
+	display:block;
+	text-decoration:none;
+}
+.tableItem td.end a{
+	color:#C00;
+	text-decoration:none;
+}
+
+.tableItem td.link{
+	padding:15px 0;
+	margin:2px;
+	background: #FFF;
+	border:#878787 solid 1px;
+	font-size:116%;
+	text-align:center;
+}
+
+
+
+/* Page Navi
+--------------------------------------------------------------------------------- */
+.pageNavi {
+	display: block;
+	text-align: center;
+	padding: 0;
+	margin: 30px 0 0 0;
+	}
+
+.pageNavi a,
+.pageNavi a:visited {
+	margin: 0 2px 0 2px;
+	padding: 2px 5px;
+	border: 1px solid #C00;
+	text-decoration: none;
+	color: #FFF;
+	background: #C00;
+	}
+
+.pageNavi a:hover,
+.pageNavi a:active {
+	margin: 0 2px 0 2px;
+	padding: 2px 5px;
+	border: 1px solid #000;
+	text-decoration: none;
+	color: #000;
+	background: #FC3;
+	}
+
+.pages {
+	margin-right: 15px;
+	}
+
+.current {
+	font-weight: bold;
+	margin: 0 5px 0 5px;
+	}
+	
+
+/* clearfix
+--------------------------------------------------------------------------------- */
+.clear{ 
+	overflow: hidden;
+	clear:both;
+	width:240px;
+	padding:10px;
+}
+.clear a{
+	color:#FFF;
+}
+
+.clearfix:after {
+  content: ".";  /* 新しい要素を作る */
+  display: block;  /* ブロックレベル要素に */
+  clear: both;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  min-height: 1px;
+}
+
+* html .clearfix {
+  height: 1px;
+  /*¥*//*/
+  height: auto;
+  overflow: hidden;
+  /**/
+}

@@ -1,0 +1,123 @@
+@charset "utf-8";
+
+/*=====================================================
+
+Font-size Adjustment
+all text renders at 13 pixel size
+
+10px : 77%
+11px : 85%
+12px : 93%
+13px : 100%
+14px : 108%
+15px : 116%
+16px : 123.1%
+17px : 131%
+18px : 138.5%
+19px : 146.5%
+20px : 153.9%
+21px : 161.6%
+22px : 167%
+23px : 174%
+24px : 182%
+25px : 189%
+26px : 197%
+
+=====================================================*/
+
+
+/* body
+--------------------------------------------------------------------------------- */
+body {
+	font-family: "Lucida Grande", "Verdana", "Meiryo", "Hiragino Kaku Gothic Pro W3", "ヒラギノ角ゴPro W3", "HiraKakuPro-W3", "MS Pゴシック", Sans-Serif;
+	font-size: 13px;
+	*font-size: small;
+	*font: x-small;
+	}
+
+*:first-child+html body {
+	font-family: 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS P Gothic', sans-serif;
+	}
+* html body {
+	font-family: 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS P Gothic', sans-serif;
+	}
+
+select,input,textarea {
+	font: 13px Verdana, sans-serif;
+	}
+
+/* #contents
+--------------------------------------------------------------------------------- */
+#main {
+	font-size: 92%;
+	color: #000;
+	}
+
+.mainBox h4 {
+	font-size: 129%;
+	line-height: 34px;
+	color: #F6008B;
+	text-shadow: 1px 1px 1px #888;
+	}
+
+.mainBox h5 {
+	font-size: 107%;
+	color: #2F1110;
+	text-shadow: 1px 1px 1px #777;
+	padding: 0 0 0 5px;
+	}
+
+/* #side
+--------------------------------------------------------------------------------- */
+#side {
+	font-size: 85%;
+	color: #F0F0F0;
+	}
+
+#sideMymenu .userCart {
+	line-height: 2.4;
+	font-size: 107%;
+	}
+
+/* #footer
+--------------------------------------------------------------------------------- */
+#indexFooter,
+#footer {
+	font: bold 85% 'Arial','Tahoma',sans-serif;
+	line-height: 2.0;
+	}
+
+#indexFooter {
+	color: #444;
+	}
+
+#footer {
+	color: #FFF;
+	}
+
+#utilityNavi {
+	font-weight: normal;
+	}
+
+/* font-size
+--------------------------------------------------------------------------------- */
+.x-large { font-size: 174%; }
+.large { font-size: 144%; }
+.mid { font-size: 122%; }
+.esmall { font-size: 107%; }
+.small { font-size: 92%; }
+.x-small { font-size: 77%; }
+
+/* font-color
+--------------------------------------------------------------------------------- */
+.red { color: #F00; }
+.blue { color: #30F; }
+.skybule { color: #0CF; }
+.green { color: #6C0; }
+.orange { color: #F90; }
+.pink { color: #F6C; }
+.purple { color: #60F; }
+.lavender { color: #C9F; }
+.gray { color: #999; }
+
+

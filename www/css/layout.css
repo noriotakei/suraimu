@@ -1,0 +1,1251 @@
+@charset "utf-8";
+
+
+/*=====================================================
+header
+=====================================================*/
+
+#headerWrap {
+	width: 100%;
+	height: 124px;
+	background:#3D6B4E url(../img/bg_header_login.png) top left repeat-x;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	border-bottom:#C4AE00 solid 1px;
+	}
+
+/* ログイン後用に追加 20130718 */
+#headerLoginWrap {
+	width: 100%;
+	height: 224px;
+	background:#3D6B4E url(../img/bg_header_login.png) top left repeat-x;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	border-bottom:#C4AE00 solid 1px;
+	}
+
+#header {
+	width: 880px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	}
+
+#header #logo {
+	float:left;
+	display: block;
+	background: url(../img/logoHead.png) top left no-repeat;
+	width: 295px;
+	height: 73px;
+	margin: 27px 0 0 0px;
+	text-indent: -999em;
+	}
+
+#header h1 {
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	}
+
+#header h1 a {
+	float:left;
+	display: block;
+	background: url(../img/logoHead.png) top left no-repeat;
+	width: 295px;
+	height: 73px;
+	margin: 27px 0 0 0px;
+	text-indent: -999em;
+	}
+
+#header h1 a {
+	background-position: left;
+	}
+
+#header h1 a:hover,
+#header h1 a:active {
+	background-position: right;
+	}
+
+#header h2 {
+	float:left;
+	width: 344px;
+	height: 73px;
+	text-indent:-999em;
+	margin: 27px 0 0 0px;
+	background: transparent url(../img/headTxt.gif) top left no-repeat;
+	}
+
+#header #login {
+	padding:34px 0 0 0;
+	float:right;
+	text-align:center;
+	}
+#login dl {
+	float:left;
+	margin: 2px 0 2px 0;
+	text-align:left;
+	}
+
+#login dt {
+	padding: 0 0 0 50px;
+	text-align:left;
+	background: transparent url(../img/bg_login_id.gif) top left no-repeat;
+	}
+
+#login dd {
+	padding: 0 0 0 50px;
+	text-align:right;
+	background: transparent url(../img/bg_login_pass.gif) top left no-repeat;
+	}
+
+#login #txt {
+	float:right;
+	text-align:right;
+	line-height:80%;
+	margin:0 0 0 0;
+	}
+#login a {font-size:77%;color:#005B22;}
+#login a:hover ,
+#login a:active {
+	background:#B70000;
+	text-decoration:underline;
+	}
+#login .btLogin { float:right;}
+
+
+#header #status {
+	background: transparent url(../img/bg_member.png) top left no-repeat;
+	margin-top:22px;
+	float:right;
+	width:564px;
+	height:83px;
+	}
+
+#header #status #ID {
+	float:right;
+	margin:13px 10px 0 0;
+	color:#FFF;
+	font-size:110%;
+	line-height:132%;
+	font-weight:bold;
+	text-align:right;
+	}
+
+
+#statusLogin{
+	float:right;
+	width:92px;
+	margin:7px 12px 0 0;
+}
+
+#bt_point,
+#bt_status{
+	float:right;
+	clear:both;
+	}
+
+#bt_status a {
+	display: block;
+	background: transparent url(../img/bt_status.png) top left no-repeat;
+	width: 92px;
+	height: 26px;
+	text-indent: -999em;
+	}
+
+#bt_point a {
+	display: block;
+	background: transparent url(../img/bt_point.png) top left no-repeat;
+	width: 92px;
+	height: 26px;
+	text-indent: -999em;
+	}
+#bt_status a ,
+#bt_point a {
+	background-position: left;
+	padding:2px 0;
+	margin:1px 0;
+	}
+#bt_status a:hover,
+#bt_status a:active,
+#bt_point a:hover,
+#bt_point a:active {
+	padding:2px 0;
+	margin:1px 0;
+	background-position: right;
+	}
+
+/*=====================================================
+Image Area
+=====================================================*/
+#imageArea {
+	width: 880px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	vertical-align:middle;
+	}
+#imageAreaSwf {
+	width: 880px;
+	height:200px;
+	position: relative;
+	margin: 0 auto;
+	padding: 0;
+	text-align: center;
+	vertical-align:middle;
+	}
+
+/*=====================================================
+Main Menu
+=====================================================*/
+#mainMenu {
+	width: 880px;
+	height: 44px;
+	background:#3D6B4E url(../img/bg_menu.gif) top left repeat-x;
+	margin: 0 auto;
+	padding-top:4px;
+	text-align: center;
+	border-top:#C4AE00 solid 1px;
+}
+#mainMenu ul {
+	list-style-type : none;
+	margin:0 2px;
+	text-align: center;
+}
+#mainMenu li {
+	display : inline;
+	margin:0 0px;
+	float:left;
+}
+
+#mainMenu #mainHome a,
+#mainMenu #mainHome a:hover,
+#mainMenu #mainFree a,
+#mainMenu #mainFree a:hover,
+#mainMenu #mainAbout a,
+#mainMenu #mainAbout a:hover,
+#mainMenu #mainHit a,
+#mainMenu #mainHit a:hover,
+#mainMenu #mainVoice a,
+#mainMenu #mainVoice a:hover,
+#mainMenu #mainFaq a,
+#mainMenu #mainFaq a:hover,
+#mainMenu #mainCustomer a,
+#mainMenu #mainCustomer a:hover,
+#mainMenu #mainGuide a,
+#mainMenu #mainGuide a:hover,
+#mainMenu #mainitem_list a,
+#mainMenu #mainitem_list a:hover,
+#mainMenu #mainInfo a,
+#mainMenu #mainInfo a:hover{
+	background-repeat:no-repeat;
+	background-position:top ;
+	width:125px;
+	height:36px;
+	display:block;
+	background-color:#003366;text-indent:-999em;
+}
+
+#mainMenu #mainHome a{background:url(../img/btMainHome.gif) left;}
+#mainMenu #mainHome a:hover {background:url(../img/btMainHome.gif) right;}
+#mainMenu #mainFree a{background:url(../img/btMainFree.gif) left;}
+#mainMenu #mainFree a:hover {background:url(../img/btMainFree.gif) right;}
+#mainMenu #mainAbout a{background:url(../img/btMainAbout.gif) left;}
+#mainMenu #mainAbout a:hover {background:url(../img/btMainAbout.gif) right;}
+#mainMenu #mainHit a{background:url(../img/btMainHit.gif) left;}
+#mainMenu #mainHit a:hover {background:url(../img/btMainHit.gif) right;}
+#mainMenu #mainVoice a{background:url(../img/btMainVoice.gif) left;}
+#mainMenu #mainVoice a:hover {background:url(../img/btMainVoice.gif) right;}
+#mainMenu #mainFaq a{background:url(../img/btMainFaq.gif) left;}
+#mainMenu #mainFaq a:hover {background:url(../img/btMainFaq.gif) right;}
+#mainMenu #mainCustomer a{background:url(../img/btMainCustomer.gif) left;}
+#mainMenu #mainCustomer a:hover {background:url(../img/btMainCustomer.gif) right;}
+#mainMenu #mainGuide a{background:url(../img/btMainGuide.gif) left;}
+#mainMenu #mainGuide a:hover {background:url(../img/btMainGuide.gif) right;}
+#mainMenu #mainitem_list a{background:url(../img/btMainItemlist.gif) left;}
+#mainMenu #mainitem_list a:hover {background:url(../img/btMainItemlist.gif) right;}
+#mainMenu #mainInfo a{background:url(../img/btMainInfo.gif) left;}
+#mainMenu #mainInfo a:hover {background:url(../img/btMainInfo.gif) right;}
+
+
+/*=====================================================
+Regist Form
+=====================================================*/
+#registForm {
+	width: 880px;
+	height: 298px;
+	background:#000 url(../img/bg_regist.jpg) top left no-repeat;
+	position: relative;
+	margin: 0 auto;
+	padding-top: 110px;
+	color:#fff;
+	text-align: center;
+	font-size:85%;
+	}
+#registForm span{
+	font-size:250%;
+	margin:0 10px;
+	font-weight:bold;
+}
+#setting{
+	margin:10px 10px;
+	}
+#setting a,
+#setting a:hover,
+#setting a:active {
+	display: block;
+	background: transparent url(../img/bt_regist_setting.png) top left no-repeat;
+	width: 479px;
+	height: 64px;
+	margin:0 auto 0 auto;
+	overflow:none;
+	text-indent: -9999em;
+	}
+
+#setting a {background-position:left;}
+#setting a:hover,#setting a:focus {background-position:right;}
+
+#txtLeft{
+	float:left;
+	padding-left:85px;
+	text-align:left;
+}
+#txtRight{
+	float:left;
+	padding-left:28px;
+	text-align:left;
+}
+
+/*=====================================================
+contents
+=====================================================*/
+
+#contents {
+	position: relative;
+	width: 880px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	background: url(../img/bg_contents.gif) top center repeat-y;
+	}
+
+#contents2 {
+	position: relative;
+	width: 880px;
+	margin: 0 auto;
+	padding: 0;
+	text-align: left;
+	background: #fff;
+	}
+
+/*====================================================================================================================================================================================================================
+contents
+=====================================================*/
+#room #contents,
+#house #contents {
+	margin: -63px auto 0 auto;
+	}
+
+/* clearfix */
+#contents:after {
+	content: ".";
+	display: block;
+	visibility: hidden;
+	height: 0.1px;
+	font-size: 0.1em;
+	line-height: 0;
+	clear: both;
+	}
+
+/*=====================================================
+Main
+=====================================================*/
+#main {
+	float: right;
+	width: 630px;
+	clear:both;
+	}
+
+#main2 {
+	background:#003215;
+	clear:both;
+	}
+
+#main p ,
+#main2 p {
+	padding:10px;
+	margin:10px;
+	}
+
+.mainBox {
+	background:#003215;
+	margin:10px;
+	padding:10px;
+	color:#FFF;
+	clear:both;
+	}
+
+.mainBox2 {
+	background:#FFF;
+	margin:0 20px;
+	padding:30px;
+	color:#000;
+	clear:both;
+	}
+.mainBox2 a {
+	color:#000;
+	}
+
+.mainBox h4 {
+	height: 34px;
+	margin: 0 0 10px 0;
+	padding: 0 0 0 60px;
+	background: url(../img/h4_line.png) top left no-repeat;
+	clear: both;
+	}
+
+.mainBox dl a ,a:hover,
+a:active  {
+	color:#C00;
+	}
+
+.mainBox dt {
+	border-left:10px solid #C00;
+	background:#000;
+	padding:3px 0 3px 10px;
+	margin:10px 0;
+	color:#FC0;
+	font-weight:bold;
+	}
+
+.mainBox dd {
+	padding:10px;
+	background:#FFF;
+	color:#000;
+	}
+
+.mainBox dd #date {
+	text-align:right;
+	color:#C90;
+	}
+
+
+/* template2Txt
+--------------------------------------------------------------------------------- */
+#txtFormat{
+	text-align:left;
+	background:#fff;
+	color:#000;
+	}
+#txtFormat dl {
+	padding:10px;
+	}
+
+#txtFormat dt {
+	border-left:10px solid #C00;
+	background:#000;
+	padding:10px;
+	color:#FC0;
+	font-weight:bold;
+	}
+#txtFormat dd {
+	padding:10px;
+	background:#FFF;
+	color:#000;
+	}
+
+#txtFormat a{color:#000;}
+
+
+/*=====================================================
+Side Menu
+=====================================================*/
+#side {
+	float:left;
+	width: 240px;
+	background:#000;
+	padding:10px 5px 0 5px;
+	}
+
+#sideIn {
+	background:#003215;
+	}
+
+#side p {
+	margin:10px 0px 76px 0px;
+	text-align:left;
+	}
+#side a,#login a:hover,#login a:focus {
+color:#FFF;
+	}
+
+/* ------------ Hit CERT ------------ */
+#sideHitcert {
+	background:#003315 url(../img/head_hitcert.gif) top left no-repeat;
+	text-align:center;
+	padding:45px 0 10px 0;
+	margin-bottom:10px;
+	}
+#sideHitcert h3 {display:none;}
+#sideHitcert img {
+	margin:8px 0;
+	border:0;
+	}
+/* ------------ Hit RANKING ------------ */
+#sideHitrank {
+	background:#003215 url(../img/head_hitrank.gif) top left no-repeat;
+	text-align:center;
+	width:240px;
+	padding:45px 0 10px 0;
+	margin-bottom:10px;
+	}
+
+#sideHitrank h3 {display:none;}
+
+#sideHitrank h4{
+	color:#FF0;
+	font-size:131%;
+	padding-top:6px;
+	padding-right:5px;
+	line-height:120%;
+	}
+#sideHitrank h5{
+	color:#FFF;
+	font-size:93%;
+	line-height:130%;
+	padding-right:5px;
+	font-weight:bold;
+	}
+#sideHitrank h6{
+	color:#F90;
+	font-size:108%;
+	padding-right:5px;
+	line-height:130%;
+	}
+#rankBase1 ,
+#rankBase2 ,
+#rankBase3 ,
+#rankBase4 ,
+#rankBase5 {
+	width: 234px;
+	height: 57px;
+	text-align:right;
+	padding-right:10px;
+	margin:0 auto 5px auto;
+	}
+#rankBase1 {background: url(../img/bg_siderankNo1.gif) top left no-repeat;}
+#rankBase2 {background: url(../img/bg_siderankNo2.gif) top left no-repeat;}
+#rankBase3 {background: url(../img/bg_siderankNo3.gif) top left no-repeat;}
+#rankBase4 {background: url(../img/bg_siderankNo4.gif) top left no-repeat;}
+#rankBase5 {background: url(../img/bg_siderankNo5.gif) top left no-repeat;}
+
+/* ------------ Customer support ------------ */
+
+#sideCustomer {
+	text-align:center;
+	margin-bottom:10px;
+	}
+#sideCustomer h3 {display:none;}
+
+#sideCustomer a,
+#sideCustomer a:hover,
+#sideCustomer a:active {
+	display: block;
+	background: url(../img/bt_sideCustomer.png) top left no-repeat;
+	width: 240px;
+	height: 100px;
+	overflow:none;
+	text-indent: -9999em;
+	}
+
+#sideCustomer a {background-position:left;}
+#sideCustomer a:hover,#sideCustomer a:focus {background-position:right;}
+
+/* ------------ Information Buy ------------ */
+
+#sideBuy {
+	text-align:center;
+	margin-bottom:10px;
+	}
+
+#sideBuy h3 {display:none;}
+
+#sideBuy a,
+#sideBuy a:hover,
+#sideBuy a:active {
+	display: block;
+	background: transparent url(../img/bt_buy.png) top left no-repeat;
+	width: 240px;
+	height: 90px;
+	overflow:none;
+	text-indent: -9999em;
+	}
+
+#sideBuy a {background-position:left;}
+#sideBuy a:hover,#sideBuy a:focus {background-position:right;}
+
+
+/* ------------ Mobile ------------ */
+#sideMobile {
+	background: transparent url(../img/bg_mobile.png) top left no-repeat;
+	width:240px;
+	text-align:center;
+	padding-top:145px;
+	height:375px;
+	margin-bottom:10px;
+	}
+
+#sideMobile h3 {display:none;}
+
+
+#sideMobile a,
+#sideMobile a:hover,
+#sideMobile a:active {
+	display: block;
+	background: transparent url(../img/bt_mobileSetting.gif) top left no-repeat;
+	width: 205px;
+	height: 28px;
+	margin:55px auto 0 auto;
+	overflow:none;
+	text-indent: -9999em;
+	}
+
+#sideMobile a {background-position:left;}
+#sideMobile a:hover,#sideBuy a:focus {background-position:right;}
+#sideMobile p { text-align:center; padding-top:50px;}
+
+/*=====================================================
+footer
+=====================================================*/
+
+#footerWrap {
+	width: 880px;
+	height: 97px;
+	margin: 0 auto;
+	background:url(../img/logoFoot.png) no-repeat;
+	text-align:left;
+	}
+
+#footer {
+	padding: 20px 0 0 10px;
+	text-align:left;
+	color: #ABC605;
+	}
+#footerNolink {
+	width: 880px;
+	height: 97px;
+	margin: 0 auto;
+	background:url(../img/logoFootNolink.png) no-repeat;
+	text-align:left;
+	}
+
+#footerNolink p {
+	color:#ABC605;
+	padding: 60px 0 0 10px;
+	}
+
+/* #utilityNavi
+--------------------------------------------------------------------------------- */
+#utilityNavi {
+	margin: 0 15px 0 0;
+	padding: 0px 0 0 0;
+	text-align:left;
+	color: #ABC605;
+	}
+
+#utilityNavi li {
+	display: inline;
+	margin: 0 0 0 4px;
+	padding: 0 0 0 8px;
+	border-left: 1px solid #ABC605;
+	}
+
+#utilityNavi .worte {
+	border: none;
+	margin-left: -8px;
+	}
+
+#utilityNavi a,
+#utilityNavi a:visited {
+	color: #ABC605;
+	text-decoration: none;
+	}
+
+#utilityNavi a:hover,
+#utilityNavi a:active {
+	color: #ABC605;
+	text-decoration: underline;
+	}
+
+
+
+
+/*=====================================================
+title
+=====================================================*/
+#titleAbout ,
+#titleCompany ,
+#titleOutline_keiba ,
+#titleOutline ,
+#titlePersonal ,
+#titlePrivacy ,
+#titleRule_entry ,
+#titleRule ,
+#titleHit ,
+#titleVoice ,
+#titleGuide ,
+#titleFaq ,
+#titleSitemap ,
+#titleBank ,
+#titleCredit ,
+#titleCvd ,
+#titleBitcash ,
+#titleUpdate ,
+#titleMailchange ,
+#titleTaikai ,
+#titleRegistExec,
+#titleForget,
+#titleMailstop,
+#titleSetting,
+#titleGuiderookie,
+#titleFree,
+#titleBanknet{
+	background-repeat:no-repeat;
+	height:40px;
+	text-indent:-999em;
+	}
+
+#titleAbout {background:url(../img/title_about.gif) left no-repeat;}
+#titleCompany {background:url(../img/title_company.gif) left no-repeat;}
+#titleOutline_keiba {background:url(../img/title_outline_keiba.gif) left no-repeat;}
+#titleOutline {background:url(../img/title_outline.gif) left no-repeat;}
+#titlePersonal {background:url(../img/title_personal.gif) left no-repeat;}
+#titlePrivacy {background:url(../img/title_privacy.gif) left no-repeat;}
+#titleRule_entry {background:url(../img/title_rule_entry.gif) left no-repeat;}
+#titleRule {background:url(../img/title_rule.gif) left no-repeat;}
+#titleHit{background:url(../img/title_hit.gif) left no-repeat;}
+#titleVoice{background:url(../img/title_voice.gif) left no-repeat;}
+#titleGuide{background:url(../img/title_guide.gif) left no-repeat;}
+#titleFaq{background:url(../img/title_faq.gif) left no-repeat;}
+#titleSitemap{background:url(../img/title_sitemap.gif) left no-repeat;}
+#titleBank{background:url(../img/title_bank.gif) left no-repeat;}
+#titleBanknet{background:url(../img/title_netbank.gif) left no-repeat;}
+#titleCredit{background:url(../img/title_credit.gif) left no-repeat;}
+#titleCvd{background:url(../img/title_cvd.gif) left no-repeat;}
+#titleBitcash{background:url(../img/title_bitcash.gif) left no-repeat;}
+#titleUpdate{background:url(../img/title_update.gif) left no-repeat;}
+#titleMailchange{background:url(../img/title_mailchange.gif) left no-repeat;}
+#titleTaikai{background:url(../img/title_taikai.gif) left no-repeat;}
+#titleRegistExec{background:url(../img/title_regist_exec.gif) left no-repeat;}
+#titleForget{background:url(../img/title_forget.gif) left no-repeat;}
+#titleMailstop{background:url(../img/title_mailstop.gif) left no-repeat;}
+#titleSetting{background:url(../img/title_setting.gif) left no-repeat;}
+#titleGuiderookie{background:url(../img/title_guiderookie.gif) left no-repeat;}
+#titleFree{background:url(../img/title_free.gif) left no-repeat;}
+
+
+
+#titleCustomer{
+	width: 590px;
+	height:56px;
+	text-indent:-999em;
+	background:url(../img/title_customer.gif) center no-repeat;
+	}
+
+#titleSitemap{
+	width: 590px;
+	height:56px;
+	text-indent:-999em;
+	background:url(../img/title_sitemap.gif) center no-repeat;
+	}
+
+#titleItemlist{
+	width: 590px;
+	height:60px;
+	margin-bottom:10px;
+	text-indent:-999em;
+	background: url(../img/title_itemList.gif) center no-repeat;
+	}
+
+#titleSettle{
+	width: 570px;
+	height:55px;
+	margin-bottom:10px;
+	text-indent:-999em;
+	background:url(../img/title_settle.gif) center no-repeat;
+	}
+
+/*=====================================================
+part
+=====================================================*/
+#company{
+	background: url(../img/company.png) top left no-repeat;
+	width:640px;
+	height:370px;
+	margin:30px auto;
+	text-indent:-999em;
+	}
+#outline{
+	background: url(../img/outline.png) top left no-repeat;
+	width:640px;
+	height:745px;
+	margin:30px auto;
+	text-indent:-999em;
+	}
+
+#customer{
+	background: url(../img/customer.png) top left no-repeat;
+	width:590px;
+	height:300px;
+	margin:30px auto;
+	text-indent:-999em;
+	}
+
+#banner{
+	width:590px;
+	margin:10px auto;;
+	}
+
+/*reservation
+--------------------------------------------------------------------------------- */
+
+/*▼修正（20110406）▼*/
+
+#reservation , #cart{
+	background: url(../img/bg_reservation.gif) top left repeat-y;
+	width:570px;
+	margin:0 10px;
+	}
+
+#reservation h3{
+	background: url(../img/idx_reservation.gif) top left no-repeat;
+	width:570px;
+	height:70px;
+	text-indent:-999em;
+	}
+#cart h3{
+	background: url(../img/idx_cart.gif) top left no-repeat;
+	width:570px;
+	height:70px;
+	text-indent:-999em;
+	}
+#reservation #under , #cart #under{
+	background: url(../img/bottom_reservation.gif) top left no-repeat;
+	width:570px;
+	height:16px;
+	text-indent:-999em;
+	}
+
+/*▲修正（20110406）▲*/
+
+/*reservation
+--------------------------------------------------------------------------------- */
+
+#settle{
+	background: url(../img/bg_reservation.gif) top left repeat-y;
+	width:570px;
+	margin:0 10px;
+	}
+
+#settle h3{
+	background: url(../img/idx_settle.gif) top left no-repeat;
+	width:570px;
+	height:70px;
+	text-indent:-999em;
+	}
+#settle #under{
+	background: url(../img/bottom_reservation.gif) top left no-repeat;
+	width:570px;
+	height:16px;
+	text-indent:-999em;
+	}
+
+
+#settle dl {
+	padding:0 20px;
+	}
+
+#settle dt {
+	border-left:10px solid #F60;
+	background:#003217;
+	padding:5px;
+	color:#FC0;
+	font-weight:bold;
+	font-size:110%;
+	}
+#settle dd {
+	padding:5px;
+	background:#FFF;
+	color:#000;
+	}
+
+/*campaign
+--------------------------------------------------------------------------------- */
+
+#campaign{
+	width:570px;
+	margin:50px 10px;
+	}
+#campaign #link a {
+	display: block;
+	background: transparent url(../img/bt_campaign.gif) top left no-repeat;
+	width: 380px;
+	height: 50px;
+	margin:50px 85px 50px 85px;
+	overflow:none;
+	text-indent: -999em;
+	background-position:left;
+	}
+
+#campaign #link a:hover,#campaign #link a:focus {background-position:right;}
+
+/*hit
+--------------------------------------------------------------------------------- */
+#hitBox{
+	float:left;
+	width:285px;
+	height:100px;
+	padding-top:80px;
+	margin:5px 0 5px 5px;
+	background: transparent url(../img/bgHitbox.gif) top left no-repeat;
+	text-align:center;
+}
+
+#hitBox h3{
+	color:#F00;
+	font-size:180%;
+	padding-top:6px;
+	line-height:80%;
+	font-weight:bold;
+	}
+#hitBox p{
+	color:#FFF;
+	font-size:100%;
+	line-height:140%;
+	font-weight:bold;
+	}
+
+/*idx
+--------------------------------------------------------------------------------- */
+#idxCampain{
+	width: 570px;
+	height:40px;
+	margin: 25px 10px;
+	text-indent:-999em;
+	background: url(../img/idx_camp.gif) center no-repeat;
+	}
+
+#txtCampain{
+	width: 570px;
+	height:40px;
+	margin: 25px 10px;
+	text-indent:-999em;
+	background: url(../img/txt_camp.gif) center no-repeat;
+	}
+
+#idxPoint{
+	width: 570px;
+	height:40px;
+	margin: 25px 10px;
+	text-indent:-999em;
+	background: url(../img/idx_point.gif) center no-repeat;
+	}
+
+/*txt
+--------------------------------------------------------------------------------- */
+
+#txtPoint {
+	width: 570px;
+	height:40px;
+	margin: 25px 10px;
+	text-indent:-999em;
+	background: url(../img/txt_point.gif) center no-repeat;
+	}
+
+#txtCustomer {
+	width: 590px;
+	height:70px;
+	text-indent:-999em;
+	background: url(../img/txt_customer.gif) center no-repeat;
+	}
+#txtCustomerexec {
+	width: 590px;
+	height:70px;
+	text-indent:-999em;
+	background: url(../img/txt_customer_exec.gif) center no-repeat;
+	}
+
+#txtSitemap {
+	width: 590px;
+	height:70px;
+	text-indent:-999em;
+	background: url(../img/txt_sitemap.gif) center no-repeat;
+	}
+/*pay
+--------------------------------------------------------------------------------- */
+
+#pay {
+	background:#C33;
+	color:#FFF;
+	padding:10px;
+	text-align:center;
+	margin:10px 0;
+	}
+
+#pay h3 {display:none;}
+
+#pay #txt {
+	float:right;
+	width:320px;
+	text-align:left;
+	font-size:93%;
+}
+#pay hr {
+	border-width: 1px 0px 0px 0px;
+   border-style: solid;
+   border-color: #AB140D;
+   height: 1px;
+	margin:30px 0;
+	clear:both;
+	}
+
+#pay #bank,
+#pay #banknet,
+#pay #bitcash,
+#pay #cvd,
+#pay #credit{
+	float:left;
+	width: 240px;
+	padding-bottom:30px;
+	text-align:left;
+	}
+
+#pay #bank a,
+#pay #banknet a,
+#pay #bitcash a,
+#pay #cvd a,
+#pay #credit a{
+	display: block;
+	width: 240px;
+	height: 70px;
+	overflow:none;
+	text-indent: -999em;
+	background-position:left;
+	}
+
+#pay #bank a{background: url(../img/bt_settle_bank.gif) top left no-repeat;}
+#pay #banknet a{background: url(../img/bt_settle_banknet.gif) top left no-repeat;}
+#pay #bitcash a{background: url(../img/bt_settle_bitcash.gif) top left no-repeat;}
+#pay #cvd a{background: url(../img/bt_settle_cvd.gif) top left no-repeat;}
+#pay #credit a{background: url(../img/bt_settle_credit.gif) top left no-repeat;}
+
+#pay #bank a:hover,#pay #bank a:focus,#pay #bank a:active ,
+#pay #banknet a:hover,#pay #banknet a:focus,#pay #banknet a:active ,
+#pay #bitcash a:hover,#pay #bitcash a:focus,#pay #bitcash a:active ,
+#pay #cvd a:hover,#pay #cvd a:focus,#pay #cvd a:active ,
+#pay #credit a:hover,#pay #credit a:focus,#pay #credit a:active {background-position:right;}
+
+
+/*setting
+--------------------------------------------------------------------------------- */
+
+
+/*=====================================================
+Domain Menu
+=====================================================*/
+#domainMenu {
+	width: 780px;
+	height: 80px;
+	margin: 0 auto;
+	text-align: center;
+}
+#domainMenu ul {
+	list-style-type : none;
+}
+#domainMenu li {
+	display : inline;
+	margin:0 40px;
+	float:left;
+}
+
+#domainMenu #docomo a,
+#domainMenu #docomo a:hover,
+#domainMenu #au a,
+#domainMenu #au a:hover,
+#domainMenu #softbank a,
+#domainMenu #softbank a:hover{
+	background-repeat:no-repeat;
+	width:180px;
+	height:90px;
+	display:block;
+	text-indent:-999em;
+}
+
+#domainMenu #docomo a{background:url(../img/btDocomo.png) left;}
+#domainMenu #docomo a:hover {background:url(../img/btDocomo.png) right;}
+#domainMenu #au a{background:url(../img/btAu.png) left;}
+#domainMenu #au a:hover {background:url(../img/btAu.png) right;}
+#domainMenu #softbank a{background:url(../img/btSoftbank.png) left;}
+#domainMenu #softbank a:hover {background:url(../img/btSoftbank.png) right;}
+
+
+#boxCarrier{
+	width:260px;
+	float:left;
+}
+
+#boxCarrier dl {
+	padding:0 10px;
+	}
+
+#boxCarrier dt {
+	background:#000;
+	padding:5px;
+	color:#FC0;
+	}
+#boxCarrier dd {
+	font-size:93%;
+	height:208px;
+	border:1px solid #000;
+	background:#FFF;
+	padding:5px 0;
+	color:#000;
+	}
+#boxCarrier p {
+	width:220px;
+	text-indent:-999em;
+	background:url(../img/arrow.png) center no-repeat;
+	}
+#boxCarrier .domainTitle {
+	width:230px;
+	height:98px;
+	padding:0 15px 10px 15px;
+	}
+#boxCarrier .domainImg {
+	width:125px;
+	height:208px;
+	float:left;
+	clear:both;
+	}
+
+
+/*information
+--------------------------------------------------------------------------------- */
+#infoBg{
+	width:540px;
+	height:230px;
+	margin:10px 25px;
+	background:url(../img/infoBgGold.png) center no-repeat;
+}
+
+
+#infoBg ul {
+	list-style-type : none;
+	margin:0 2px;
+	text-align: center;
+}
+#infoBg li {
+	display
+	margin:0 0px;
+}
+
+#infoBg #mainRace{
+	padding-top:25px;
+	color:#FF0;
+	font-size:167%;
+	font-weight:bold;
+	text-align:center;
+}
+
+#infoBg #mainTime{
+	padding-top:10px;
+	color:#FFF;
+	font-size:108%;
+	font-weight:bold;
+	text-align:center;
+}
+
+#infoBg #subRace{
+	padding-top:12px;
+	color:#C00;
+	font-size:174%;
+	font-weight:bold;
+	text-align:center;
+}
+
+#infoBg #jockeyHorse{
+	padding-top:5px;
+	color:#0c0;
+	font-size:146.5%;
+	font-weight:bold;
+	text-align:center;
+}
+#infoBaken{
+	width:540px;
+	height:50px;
+	margin:20px 0px 0 0px;
+	background:url(../img/infoBgWood.png) center no-repeat;
+}
+#infoBakenUnder{
+	width:540px;
+	margin:0 25px;
+	background:#000;
+}
+
+#infoBakenCols{
+	width:500px;
+	height:50px;
+	margin:10px 20px;
+	background:url(../img/infoBgCols.png) center no-repeat;
+	clear:both;
+}
+
+#infoBakenCols #left{
+	padding:7px 30px;
+	color:#336;font-weight:bold;font-size:161.6%;
+	float:left;
+}
+
+#infoBakenCols #right{
+	padding:7px 30px;
+	color:#FF0;font-weight:bold;font-size:161.6%;
+	float:right;
+}
+
+#infoBakenColsNo{
+	width:500px;
+	margin:10px 20px;
+	clear:both;
+}
+
+#infoBakenColsNo #left{
+	width:120px;
+	padding:7px 0px;
+	color:#FFF;font-weight:bold;font-size:161.6%;
+	border:#333 solid 2px;
+	background:url(../img/infoBgLeft.png) center no-repeat;
+	text-align:center;
+	margin-bottom:10px;
+	float:left;
+}
+
+#infoBakenColsNo #right{
+	width:330px;
+	padding:7px 20px;
+	color:#FF0;font-weight:bold;font-size:161.6%;
+	border:#333 solid 2px;
+	background:#333 url(../img/infoBgRight.png) 0 0 no-repeat;
+	float:right;
+}
+
+
+
+.imgType{
+	padding:10px 0 10px 25px;
+	border:0;
+}
