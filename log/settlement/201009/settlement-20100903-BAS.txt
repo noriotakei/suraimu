@@ -1,0 +1,2 @@
+[2010-09-03 10:01:30] telno=ヤマモトフミコ&money=12000&bankname=トウノウシンキン&sitenname=トキク゛チ&fkoza=0137526
+[2010-09-03 12:01:26] telno=0000051104&money=2000&bankname=ユウチヨ&sitenname=ナカ゛ノタ゛イニカワセセンタ&fkoza=0137526

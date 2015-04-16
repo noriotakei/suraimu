@@ -1,0 +1,3 @@
+[2010-04-27 09:31:25] telno=0000036906&money=13000&bankname=ヨコハマ&sitenname=フシ゛タ゛ナ&fkoza=0137526
+[2010-04-27 10:46:24] telno=0000036909&money=12000&bankname=ユウチヨ&sitenname=フクオカタ゛イコ゛カワセセンタ&fkoza=0137526
+[2010-04-27 11:01:42] telno=0000036913&money=13000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=エイテイエムトウカツ&fkoza=0137526

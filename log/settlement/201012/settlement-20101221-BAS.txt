@@ -1,0 +1,14 @@
+[2010-12-21 09:01:22] telno=0000061227&money=40000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=タ゛イレクトコウホウ&fkoza=0137526
+[2010-12-21 09:01:23] telno=0000061220&money=18000&bankname=シ゛ヤハ゜ンネツト&sitenname=ホンテン&fkoza=0137526
+[2010-12-21 09:01:23] telno=0000061202&money=40000&bankname=ミナト&sitenname=サンノミヤ&fkoza=0137526
+[2010-12-21 09:16:11] telno=0000061224&money=20000&bankname=シ゛ヤハ゜ンネツト&sitenname=スス゛メ&fkoza=0137526
+[2010-12-21 09:46:11] telno=0000061151&money=5000&bankname=ミナト&sitenname=アコウ&fkoza=0137526
+[2010-12-21 10:01:22] telno=0000060310&money=5000&bankname=フクオカ&sitenname=ミワタ゛イ&fkoza=0137526
+[2010-12-21 10:01:23] telno=0000061256&money=5000&bankname=チハ゛&sitenname=サイワイチヨウ&fkoza=0137526
+[2010-12-21 10:16:10] telno=0000061207コマタ゛リユウイチ&money=9000&bankname=ヨコハマ&sitenname=マチタ゛&fkoza=0137526
+[2010-12-21 11:31:27] telno=モリナリヨウコ&money=5000&bankname=サイタマリソナ&sitenname=シマネオヘ゜レ-シヨンセンタ-&fkoza=0137526
+[2010-12-21 11:46:15] telno=0000061243&money=10000&bankname=サイタマケンシンキン&sitenname=ホンテン&fkoza=0137526
+[2010-12-21 12:16:23] telno=0000061191ノタ゛シユンヘ゜イ&money=9000&bankname=ヨコハマ&sitenname=ユカ゛ワラ&fkoza=0137526
+[2010-12-21 12:46:06] telno=0000061274スキ゛ヤマケンイチ&money=5000&bankname=ムサシノ&sitenname=ニシカワク゛チ&fkoza=0137526
+[2010-12-21 14:46:25] telno=0000061201&money=40000&bankname=ホクセイシンキン&sitenname=アサヒ&fkoza=0137526
+[2010-12-21 14:46:25] telno=0000061257&money=40000&bankname=ミス゛ホ&sitenname=コウフ&fkoza=0137526

@@ -1,0 +1,14 @@
+[2010-04-21 10:16:08] telno=0000036196&money=8000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=フナハ゛シエキマエ&fkoza=0137526
+[2010-04-21 10:46:28] telno=0000036246&money=8000&bankname=ケイヨウ&sitenname=カマトリ&fkoza=0137526
+[2010-04-21 11:16:03] telno=0000036251&money=8000&bankname=ヤマカ゛タ&sitenname=コトフ゛キチヨウ&fkoza=0137526
+[2010-04-21 11:16:03] telno=0000036279&money=17000&bankname=サイタマリソナ&sitenname=シマネオヘ゜レ-シヨンセンタ-&fkoza=0137526
+[2010-04-21 11:31:25] telno=0000036262&money=7000&bankname=サンインコ゛ウキ゛ン&sitenname=キタ&fkoza=0137526
+[2010-04-21 11:39:07] telno=220&money=1000&bankname=UFJ&sitenname=ネリマ&fkoza=0123456
+[2010-04-21 11:42:36] telno=220&money=1000&bankname=UFJ&sitenname=ネリマ&fkoza=0123456
+[2010-04-21 11:42:39] telno=220&money=1000&bankname=UFJ&sitenname=ネリマ&fkoza=0123456
+[2010-04-21 11:42:40] telno=220&money=1000&bankname=UFJ&sitenname=ネリマ&fkoza=0123456
+[2010-04-21 11:46:22] telno=0000036261&money=8000&bankname=トチキ゛&sitenname=ハ゛ハ゛チヨウ&fkoza=0137526
+[2010-04-21 11:47:16] telno=220&money=1000&bankname=UFJ&sitenname=ネリマ&fkoza=0123456
+[2010-04-21 11:47:18] telno=220&money=1000&bankname=UFJ&sitenname=ネリマ&fkoza=0123456
+[2010-04-21 12:16:42] telno=0000036281&money=8000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=ヒメシ゛&fkoza=0137526
+[2010-04-21 14:16:40] telno=0000036303&money=17000&bankname=ホクヨウ&sitenname=トンテ゛ンキタ&fkoza=0137526

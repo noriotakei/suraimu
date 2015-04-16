@@ -1,0 +1,3 @@
+[2011-01-26 09:01:16] telno=ID65063&money=10000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=タ゛イレクトコウホウ&fkoza=0137526
+[2011-01-26 09:01:17] telno=ヤマモトタカコ&money=10000&bankname=トウホク&sitenname=ニノヘ&fkoza=0137526
+[2011-01-26 15:01:43] telno=0000065109&money=10000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=エイテイエムトウカツ&fkoza=0137526

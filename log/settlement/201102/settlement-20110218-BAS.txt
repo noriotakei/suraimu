@@ -1,0 +1,10 @@
+[2011-02-18 09:16:13] telno=オクヤマユカリ&money=5000&bankname=77&sitenname=リフ&fkoza=0137526
+[2011-02-18 10:31:22] telno=0000067338タテオカミキヒコ&money=20000&bankname=アキタ&sitenname=コ゛シ゛ヨウメ&fkoza=0137526
+[2011-02-18 11:16:10] telno=0000067242&money=9000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=ヨコハマハクラク&fkoza=0137526
+[2011-02-18 11:46:12] telno=ID67290&money=5000&bankname=ヒロシマ&sitenname=カワライシ&fkoza=0137526
+[2011-02-18 12:16:11] telno=0000067236&money=9000&bankname=コウフシンキン&sitenname=カノウイワ&fkoza=0137526
+[2011-02-18 13:01:09] telno=0000067149キツカワヤスヒコ&money=9000&bankname=タ゛イキヨウ&sitenname=オオサト&fkoza=0137526
+[2011-02-18 13:16:14] telno=ミヤサ゛キユウキ&money=9000&bankname=キヨウトチユウオウシンキン&sitenname=トキワヒカ゛シ&fkoza=0137526
+[2011-02-18 13:16:14] telno=ミヤサ゛キユウキ&money=10000&bankname=キヨウトチユウオウシンキン&sitenname=トキワヒカ゛シ&fkoza=0137526
+[2011-02-18 14:16:23] telno=0000067253&money=30000&bankname=ホクリク&sitenname=カナサ゛ワトイヤマチ&fkoza=0137526
+[2011-02-18 14:46:13] telno=0000067367&money=30000&bankname=シカ゛&sitenname=コノハマ&fkoza=0137526

@@ -1,0 +1,3 @@
+[2010-09-14 10:16:17] telno=タケモトアツエ52055&money=12000&bankname=オカサ゛キシンキン&sitenname=ニシオミナミ&fkoza=0137526
+[2010-09-14 10:56:16] telno=タケモトアツエ52055&money=12000&bankname=オカサ゛キシンキン&sitenname=ニシオミナミ&fkoza=0137526
+[2010-09-14 13:46:27] telno=0000052075&money=20000&bankname=ミツイスミトモ&sitenname=エ-テイ-エムヒカ゛シハチ&fkoza=0137526

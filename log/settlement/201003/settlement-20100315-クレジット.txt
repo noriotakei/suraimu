@@ -1,0 +1,3 @@
+[2010-03-15 16:28:27] clientip=1011000263&money=1000&telno=0333677017&email=norihisa_hosoda@fraise.jp&sendid=99999999&sendpoint=9999999&result=ok
+[2010-03-15 18:59:42] clientip=1011000263&money=1000&telno=0333677017&email=norihisa_hosoda@fraise.jp&sendid=99999999&sendpoint=9999999&result=ok
+[2010-03-15 19:06:45] clientip=1011000263&money=1000&telno=0333677017&email=norihisa_hosoda@fraise.jp&sendid=40&sendpoint=214&result=ok

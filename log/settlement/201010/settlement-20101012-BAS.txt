@@ -1,0 +1,7 @@
+[2010-10-12 09:01:27] telno=0000054574カネコミツノフ゛&money=8000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=トツカ&fkoza=0137526
+[2010-10-12 09:01:27] telno=0000054679&money=8000&bankname=ホクヨウ&sitenname=オヒ゛ヒロチユウオウ&fkoza=0137526
+[2010-10-12 09:01:27] telno=0000054920&money=4000&bankname=ニシニツホ゜ンシテイ&sitenname=ヒノサト&fkoza=0137526
+[2010-10-12 09:01:28] telno=0000054847&money=12000&bankname=ユウチヨ&sitenname=フクオカタ゛イヨンカワセセンタ&fkoza=0137526
+[2010-10-12 09:01:28] telno=0000054966&money=15000&bankname=ミツイスミトモ&sitenname=タ゛イレクトトウキヨウイチ&fkoza=0137526
+[2010-10-12 09:01:28] telno=0000054737&money=28000&bankname=ミツイスミトモ&sitenname=タ゛イレクトトウキヨウイチ&fkoza=0137526
+[2010-10-12 12:16:24] telno=0000055058&money=22000&bankname=イヨ&sitenname=エイキ゛ヨウサホ゜-トセンタ-&fkoza=0137526

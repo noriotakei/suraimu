@@ -1,0 +1,3 @@
+[2010-12-20 11:16:21] telno=0000061145&money=5000&bankname=ミツイスミトモ&sitenname=エ-テイ-エムニシナナ&fkoza=0137526
+[2010-12-20 11:31:37] telno=0000061123タカシマヨシヒロ&money=3000&bankname=サイタマリソナ&sitenname=シキ&fkoza=0137526
+[2010-12-20 13:46:19] telno=0000061187&money=40000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=タ゛イレクトコウホウ&fkoza=0137526

@@ -1,0 +1,3 @@
+[2011-01-24 09:01:32] telno=0000064761&money=6000&bankname=シ゛ヤハ゜ンネツト&sitenname=スス゛メ&fkoza=0137526
+[2011-01-24 09:16:13] telno=シラサワミツコ&money=6000&bankname=カコ゛シマ&sitenname=センタ゛イ&fkoza=0137526
+[2011-01-24 13:46:20] telno=0000064053オカタ゛ユキオ&money=5000&bankname=リソナ&sitenname=カシワラ&fkoza=0137526

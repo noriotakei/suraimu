@@ -1,0 +1,2 @@
+[2010-12-16 09:01:16] telno=0000060694&money=12000&bankname=チユウコ゛ク&sitenname=タ゛イク&fkoza=0137526
+[2010-12-16 10:01:21] telno=0000060759サタ゛ハルユキ&money=30000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=センリチユウオウ&fkoza=0137526

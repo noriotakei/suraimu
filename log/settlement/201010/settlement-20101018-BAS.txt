@@ -1,0 +1,3 @@
+[2010-10-18 09:01:26] telno=0000055352&money=60000&bankname=114&sitenname=カンオンシ゛&fkoza=0137526
+[2010-10-18 09:01:29] telno=0000055440&money=60000&bankname=オオイタ&sitenname=イカタ゛イカ゛クマエ&fkoza=0137526
+[2010-10-18 12:16:20] telno=イナカ゛キマコト&money=10000&bankname=ラクテン&sitenname=タ゛ンス&fkoza=0137526

@@ -1,0 +1,6 @@
+[2012-08-24 10:04:45] admin_id=36&telno=0000091261&money=12000&bankname=カンリ&sitenname=カンリ&fkoza=7115544
+[2012-08-24 11:23:45] admin_id=36&telno=0000091278&money=12000&bankname=カンリ&sitenname=カンリ&fkoza=7115544
+[2012-08-24 12:36:08] admin_id=36&telno=0000091280&money=8000&bankname=カンリ&sitenname=カンリ&fkoza=7115544
+[2012-08-24 13:17:07] admin_id=36&telno=0000091282&money=12000&bankname=カンリ&sitenname=カンリ&fkoza=7115544
+[2012-08-24 17:16:19] admin_id=36&telno=0000091292&money=8000&bankname=カンリ&sitenname=カンリ&fkoza=7115544
+[2012-08-24 19:25:17] admin_id=36&telno=0000091303&money=3000&bankname=カンリ&sitenname=カンリ&fkoza=7115544

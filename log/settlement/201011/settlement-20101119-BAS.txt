@@ -1,0 +1,4 @@
+[2010-11-19 09:01:20] telno=0000058103&money=7000&bankname=ク゛ンマ&sitenname=タテハ゛ヤシ&fkoza=0137526
+[2010-11-19 13:16:13] telno=0000058456モリナツ&money=38000&bankname=モリオカシンキン&sitenname=ホンチヨウ&fkoza=0137526
+[2010-11-19 14:46:20] telno=0000058517&money=38000&bankname=ヨコハマ&sitenname=ヤマキタ&fkoza=0137526
+[2010-11-19 14:46:20] telno=タナカナリヒト&money=6000&bankname=アオモリ&sitenname=ヒラカ&fkoza=0137526

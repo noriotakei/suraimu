@@ -1,0 +1,11 @@
+[2011-03-04 09:01:07] telno=0000068551&money=30000&bankname=カワサキシンキン&sitenname=ナカノシマ&fkoza=0137526
+[2011-03-04 09:01:07] telno=0000068578&money=30000&bankname=ミス゛ホ&sitenname=エイテイ-エムトウカツ&fkoza=0137526
+[2011-03-04 09:01:08] telno=0000068565&money=30000&bankname=ミツイスミトモ&sitenname=タ゛イレクトトウキヨウニ&fkoza=0137526
+[2011-03-04 09:01:09] telno=0000068538&money=30000&bankname=シ゛ヤハ゜ンネツト&sitenname=スス゛メ&fkoza=0137526
+[2011-03-04 09:01:10] telno=0000068259&money=7000&bankname=ニシヒヨウコ゛シンキン&sitenname=タカオカ&fkoza=0137526
+[2011-03-04 09:31:14] telno=0000068562&money=10000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=ヤチヨ&fkoza=0137526
+[2011-03-04 09:31:15] telno=0000068550&money=18000&bankname=ナコ゛ヤ&sitenname=ヒトツキ゛&fkoza=0137526
+[2011-03-04 09:31:15] telno=ウチキヒロミ68563&money=5000&bankname=カンサイア-ハ゛ン&sitenname=シシ゛ヨウナワテ&fkoza=0137526
+[2011-03-04 11:31:12] telno=0000068553スキ゛ムラタカオ&money=30000&bankname=ミツイスミトモ&sitenname=タ゛イレクトトウキヨウニ&fkoza=0137526
+[2011-03-04 12:31:07] telno=カ)68526&money=15000&bankname=キヨウトチユウオウシンキン&sitenname=イチハ゛&fkoza=0137526
+[2011-03-04 12:31:07] telno=カ)68614&money=30000&bankname=キヨウトチユウオウシンキン&sitenname=イチハ゛&fkoza=0137526

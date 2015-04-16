@@ -1,0 +1,3 @@
+[2010-03-31 09:01:10] telno=オノヒロコ&money=10000&bankname=フクオカ&sitenname=TBセンタ-&fkoza=0137526
+[2010-03-31 14:01:53] telno=0000033428&money=14000&bankname=オオイタ&sitenname=タキオ&fkoza=0137526
+[2010-03-31 14:31:56] telno=0000033436&money=10000&bankname=サカ゛ミシンキン&sitenname=オウキ゛チヨウ&fkoza=0137526

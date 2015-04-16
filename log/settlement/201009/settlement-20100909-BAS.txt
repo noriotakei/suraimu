@@ -1,0 +1,2 @@
+[2010-09-09 11:46:27] telno=0000051671&money=4000&bankname=ミウラフシ゛サワシンキン&sitenname=ホンテン&fkoza=0137526
+[2010-09-09 14:31:47] telno=0000051684&money=48000&bankname=シヨウナイ&sitenname=シ゛ヤスコナカヤマ&fkoza=0137526

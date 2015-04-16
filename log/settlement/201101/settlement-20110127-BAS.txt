@@ -1,0 +1,4 @@
+[2011-01-27 09:01:25] telno=マツモトユウシ゛ロウ65117&money=9000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=イチノミヤ&fkoza=0137526
+[2011-01-27 14:46:26] telno=0000065169&money=50000&bankname=イワテ&sitenname=キタカミヒカ゛シ&fkoza=0137526
+[2011-01-27 14:46:26] telno=0000065164ヤマネノフ゛オ&money=10000&bankname=18&sitenname=トヨタマ&fkoza=0137526
+[2011-01-27 15:01:46] telno=0000065154&money=50000&bankname=ミス゛ホ&sitenname=キ゛ンサ゛チユウオウ&fkoza=0137526

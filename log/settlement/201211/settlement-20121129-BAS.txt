@@ -1,0 +1,1 @@
+[2012-11-29 10:12:09] admin_id=36&telno=0000093755&money=2000&bankname=カンリ&sitenname=カンリ&fkoza=7115544

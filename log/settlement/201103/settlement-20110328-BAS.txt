@@ -1,0 +1,4 @@
+[2011-03-28 09:01:13] telno=0000069901&money=10000&bankname=アイチ&sitenname=トミタ゛&fkoza=0137526
+[2011-03-28 09:01:13] telno=ID406914&money=15000&bankname=ラクテン&sitenname=ロツク&fkoza=0137526
+[2011-03-28 09:01:21] telno=0000069986&money=15000&bankname=ミツイスミトモ&sitenname=タ゛イレクトトウキヨウニ&fkoza=0137526
+[2011-03-28 11:45:56] telno=0000070027&money=11000&bankname=サイタマリソナ&sitenname=サイタマエイテイエム&fkoza=0137526

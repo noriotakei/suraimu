@@ -1,0 +1,15 @@
+[2010-06-15 09:01:21] telno=0000043262&money=7000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=エイテイエムトウカツ&fkoza=0137526
+[2010-06-15 09:01:21] telno=0000043192&money=7000&bankname=アシカカ゛&sitenname=イマイス゛ミチヨウ&fkoza=0137526
+[2010-06-15 09:16:11] telno=0000043271&money=9000&bankname=トウホウ&sitenname=ナミエ&fkoza=0137526
+[2010-06-15 10:16:07] telno=0000043284&money=9000&bankname=ナント&sitenname=キキヨウカ゛オカ&fkoza=0137526
+[2010-06-15 10:31:31] telno=タナカミカ&money=7000&bankname=フクオカ&sitenname=イマシ゛ユク&fkoza=0137526
+[2010-06-15 10:31:31] telno=0000043274&money=9000&bankname=ミチノク&sitenname=ハコタ゛テ&fkoza=0137526
+[2010-06-15 10:31:32] telno=0000043221&money=9000&bankname=ラクテン&sitenname=ロツク&fkoza=0137526
+[2010-06-15 11:01:42] telno=0000043225ホツタヨシコ&money=9000&bankname=ヒロシマ&sitenname=ヒロ&fkoza=0137526
+[2010-06-15 11:31:29] telno=0000043290&money=9000&bankname=ミツイスミトモ&sitenname=キチシ゛ヨウシ゛&fkoza=0137526
+[2010-06-15 11:46:25] telno=000004330342314&money=9000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=ツシマ&fkoza=0137526
+[2010-06-15 12:31:14] telno=0000043286オサ゛キマユミ&money=9000&bankname=ホクヨウ&sitenname=ホシオキ&fkoza=0137526
+[2010-06-15 13:16:10] telno=000004311843118&money=7000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=ナカツカ゛ワ&fkoza=0137526
+[2010-06-15 13:31:23] telno=0000043300&money=9000&bankname=ホクヨウ&sitenname=ツキサムチユウオウ&fkoza=0137526
+[2010-06-15 14:31:47] telno=0000042277フクヤマヒロミ&money=11000&bankname=ミツヒ゛シトウキヨウUFJ&sitenname=オオフナ&fkoza=0137526
+[2010-06-15 14:46:32] telno=0000043232&money=9000&bankname=ミツイスミトモ&sitenname=タ゛イレクトトウキヨウニ&fkoza=0137526
