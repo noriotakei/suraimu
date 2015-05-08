@@ -41,6 +41,8 @@ if (!$cvdData OR $cvdData["is_paid"]) {
 //強引ですが、store_cdにｺﾝﾋﾞﾆｺｰﾄﾞを代入します。
 $cvdData["store_cd"] = $param["cv_cd"] ;
 $smartyOBJ->assign("cvdData", $cvdData);
+$param["pay_total"] = $orderingData["pay_total"];
+$smartyOBJ->assign("param", $param);
 // コンビニデータ配列
 $smartyOBJ->assign("cvName", SettlementCvd::$_cvName);
 $smartyOBJ->assign("operationMailAccount", SendMail::OPERATION_MAIL_ACCOUNT);

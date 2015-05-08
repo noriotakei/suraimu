@@ -24,4 +24,11 @@ $smartyOBJ->assign("quitPr", $controllerOBJ->getIncludeDispPage("quitPr"));
 $smartyOBJ->assign("quitPrStart", $controllerOBJ->getIncludeDispPage("quitPrStart"));
 $smartyOBJ->assign("remoteAddr", $_SERVER["REMOTE_ADDR"]);
 
+/**
+ * Changing mb settlement layout
+ */
+$smartyOBJ->assign("hedinfo_login_sp", $controllerOBJ->getIncludeDispPage("hedinfo_login_sp"));
+$smartyOBJ->assign("base_set", $controllerOBJ->getIncludeDispPage("base_set"));
+$smartyOBJ->assign("part_footer_sp", $controllerOBJ->getIncludeDispPage("part_footer_sp"));
+$smartyOBJ->assign("settle_sp", $controllerOBJ->getIncludeDispPage("settle_sp"));
 ?>

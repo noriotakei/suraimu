@@ -136,9 +136,6 @@ if (!$AutoMailOBJ->mailTo($mailElements, "", $mailElementsData["image_data"], $m
     exit;
 }
 
-// セッション変数の破棄
-$returnSessOBJ->unsetAll();
-
-header("Location: ./?action_SettleCvdEnd=1&" . $URLparam . ($comURLparam ? "&" . $comURLparam : "") . "&" . $sessId);
+header("Location: ./?action_SettleCvdEnd=1&" . $URLparam . ($comURLparam ? "&" . $comURLparam : "") . "&" . $sessId . "&name1=" . $param["name1"] . "&name2=" . $param["name2"] . "&telno=" . $param["telno"]);
 exit;
 ?>

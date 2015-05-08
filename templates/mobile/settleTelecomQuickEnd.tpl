@@ -1,17 +1,30 @@
-{include file=$header}
+<?php
+header("Content-Type: text/html; charset=UTF-8");
+?>
+{include file=$hedinfo_login_sp}
+<link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/settle/settle.css" media="all">
 </head>
-<body {$bodyTag}>
-<a name="top" id="top"></a>
-<div style="font-size:x-small; text-align:left; {$limited_width}">
-<img src="img/title.gif" alt="{$siteName}" width="100%" />
-<div style="text-align:center;">
-クレジットカード決済
+
+<body class="settle credit">
+<!-- #wrap -->
+<div class="wrap">
+<a id="top"></a>
+
+
+<div class="titleBar clearfix">
+<ul>
+    <li class="ttl">クレジットカード決済</li>
+    <li class="h24">24H対応</li>
+</ul>
 </div>
-<hr {$hr_2style} />
-<br />
-<span style="color:#f00;">&#xE70B;</span><span style="color:#fc0;font-size:small;">決済が完了しました。</span><br />
-<br />
-<hr {$hr_2style} />
-{include file=$footer}
+
+<div class="complete">
+決済が完了しました｡
+</div>
+
+
+{include file=$part_footer_sp}
+</div><!--end wrap-->
+
 </body>
 </html>

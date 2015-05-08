@@ -1,59 +1,101 @@
-{include file=$header}
+<?php
+header("Content-Type: text/html; charset=UTF-8");
+?>
+{include file=$hedinfo_login_sp}
+<link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/settle/settle.css" media="all">
 </head>
-<body {$bodyTag}>
-<a name="top" id="top"></a>
-<div style="font-size:x-small; text-align:left; {$limited_width}">
-{*<img src="img/title.gif" alt="{$siteName}" width="100%" />*}
-<div style="text-align:center;">
-クレジットカード決済
+
+<body class="settle credit">
+<!-- #wrap -->
+<div class="wrap">
+<a id="top"></a>
+
+
+<div class="titleBar clearfix">
+<ul>
+    <li class="ttl">クレジットカード決済</li>
+    <li class="h24">24H対応</li>
+</ul>
 </div>
-<hr {$hr_2style} />
-{if $errMsg}<span style="color:#f00;font-size:small;">{$errMsg}</span><br />{/if}
-<span style="font-size:small;color:#f00;">※クイックチャージで決済されます</span><br />下記の内容でよろしければボタンを押して下さい。<br />
-<br />
-{if $itemList}
-    {foreach from=$itemList item="val"}
-        <table border="0" width="100%">
-        <tr>
-        <td width="20%"><span style="color:#c93;font-size:small;">内容：</span>
-        </td>
-        <td width="80%"><span style="color:#ffa500;">{$val.html_text_name_mb|emoji}</span>
-        </td>
-        </tr>
-        <tr>
-        <td width="20%"><span style="color:#c93;font-size:small;">価格：</span>
-        </td>
-        <td width="80%">{$val.price|number_format:"0"}円</td>
-        </tr>
-        </table>
-        <img src="img/line_b.gif" width="100%" />
-    {/foreach}
-{/if}
-<br />
-<table align="center" bgcolor="#005000" border="0" width="100%">
-<tr>
-<td align="center">合計 :<span style="color:#ff0;">{$orderingData.pay_total|number_format:"0"}</span>円</td>
-</tr>
-<!--カウントダウン -->
+<div class="block mBtm20">
+    {if $errMsg}<span style="color:#f00;font-size:small;">{$errMsg}</span><br /><hr {$hr_1style} />{/if}
+</div>
+<div class="bgBlue mBtm20">
+※クイックチャージで決済されます｡
+</div>
+
+<!--合計 -->
+<div id="sum" class="block">
 {if $showCountDown }
-<tr>
-<td align="center">締切まで残時間 :<span style="color:#ff0;">{$countDownDay}{$countDownHour}{$countDownMinute}{$countDownSecond}</span></td>
-</tr>
+<dl>
+    <dt>■締切まで残時間</dt>
+    <dd class="alignC">{$countDownDay}{$countDownHour}{$countDownMinute}{$countDownSecond}</dd>
+</dl>
 {/if}
-</table>
-<span style="color:#f00;font-size:small;">※決済ボタンは1度だけ押して下さい</span>
+<dl>
+    <dt>■合計金額</dt>
+    <dd class="alignC red">{$orderingData.pay_total|number_format:"0"}円</dd>
+</dl>
+</div>
+<!--合計 End-->
 
 
+<!--クイックチャージ決済へ -->
 <form action="./?action_SettleTelecomQuickExec=1{if $comURLparam}&{$comURLparam}{/if}" method="post">
 {$FORMparam}
-<div style="text-align:center;color:#000;">▼　▼　▼<br /><input value="決済する" type="submit" /></div>
+<div class="form80 mBtm20">
+    <input type="image" src="http://image.ko-haito.com/contents/settle/btnCredit.gif" alt="クレジットで決済する" class="responsive">
+</div>
 </form>
-<br />
-<hr {$hr_2style} />
-<span style="color:#00ccec;font-size:small;">※他の決済方法に変更する場合はコチラ</span><br />
-{include file=$settleMenu}
-{*{include file=$footer}*}
-{* アフィリエイトタグ *}
-{$comImgTag}
+<!--クイックチャージ決済へ End-->
+
+
+<!-- カート -->
+<div id="cartBlock" class="bgYellow">
+
+<div class="text">▼ 商品をご確認下さい ▼</div>
+{if $itemList}
+    {foreach from=$itemList item="val"}
+<div class="cart">
+<table>
+    <tr>
+        <th>内容</th>
+        <td>{$val.html_text_name_mb|emoji}</td>
+    </tr>
+    <tr>
+        <th>価格</th>
+        <td class="red">{$val.price|number_format:"0"}円</td>
+    </tr>
+</table>
+</div>
+{/foreach}
+{/if}
+<!-- キャンセル -->
+<div class="cancel responsive">
+    <a href="./?action_OrderingDelChk=1&odid={$orderingData.access_key}{if $comURLparam}&{$comURLparam}{/if}"><img src="http://image.ko-haito.com/contents/settle/btnCancel.png" alt="予約をキャンセルする"></a>
+</div>
+
+</div><!-- /.block -->
+<!-- カートEnd -->
+
+
+<div class="mBtm10">
+    <img src="http://image.ko-haito.com/contents/settle/txtSettleChange.png" alt="※他の決済方法に変更する場合はコチラ" class="responsive">
+</div>
+
+<!-- ******************** 決済メニュー ******************** -->
+<div class="settleMenuTitle">
+    <img src="http://image.ko-haito.com/contents/settle/ttlSettleSelect.png" alt="決済方法の選択">
+</div>
+<div class="settleList">
+
+{include file=$settle_sp}
+
+</div><!-- /.settleList -->
+<!-- ******************** 決済メニュー End ******************** -->
+
+{include file=$part_footer_sp}
+</div><!--end wrap-->
+
 </body>
 </html>

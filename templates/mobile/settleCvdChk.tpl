@@ -1,78 +1,96 @@
-{include file=$header}
+<?php
+header("Content-Type: text/html; charset=UTF-8");
+?>
+{include file=$hedinfo_login_sp}
+<link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/settle/settle.css" media="all">
 </head>
-<body {$bodyTag}>
-<a name="top" id="top"></a>
-<div style="font-size:x-small; text-align:left; {$limited_width}">
-{*<img src="img/title.gif" alt="{$siteName}" width="100%" />*}
-<div style="text-align:center;">
-コンビニ決済
+
+<body class="settle cvd">
+<!-- #wrap -->
+<div class="wrap">
+<a id="top"></a>
+
+
+<div class="titleBar clearfix">
+<ul>
+    <li class="ttl">コンビニ決済</li>
+    <li class="h24">24H対応</li>
+</ul>
 </div>
-<hr {$hr_2style} />
-<span style="color:#f00;font-size:small;">
-【決済内容の確認】</span>
+
+
+<!-- コンビニ決済 -->
 <form action="./?action_SettleCvdExec=1{if $comURLparam}&{$comURLparam}{/if}" method="post">
 {$FORMparam}
-<table align="center" border="0" width="90%">
-    <tr>
-        <td bgcolor="#336600"><span style="color:#cf0;font-size:small;">▼コンビニ選択</span>
-</td>
-    </tr>
-    <tr>
-        <td>{$cvName[$param.cv_cd]}</td>
-    </tr>
-    <tr>
-        <td bgcolor="#336600"><span style="color:#cf0;font-size:small;">▼姓</span>
-</td>
-    </tr>
-    <tr>
-        <td>{$param.name1}</td>
-    </tr>
-    <tr>
-        <td bgcolor="#336600"><span style="color:#cf0;font-size:small;">▼名</span>
-</td>
-    </tr>
-    <tr>
-        <td>{$param.name2}</td>
-    </tr>
-    <tr>
-        <td bgcolor="#336600"><span style="color:#cf0;font-size:small;">▼携帯電話番号</span>
-</td>
-    </tr>
-    <tr>
-        <td>{$param.telno}</td>
-    </tr>
-    <tr>
-        <td bgcolor="#336600"><span style="color:#cf0;font-size:small;">▼決済金額</span>
-</td>
-    </tr>
-    <tr>
-        <td>{$orderingData.pay_total|number_format:"0"}円</td>
-    </tr>
-</table>
-<div style="text-align:center;color:#000;">
-    ▼　▼　▼<br />
-    <input value="申し込む" type="submit" />
+<div id="sum" class="block">
+<dl>
+    <dt>■コンビニ選択</dt>
+    <dd>{$cvName[$param.cv_cd]}</dd>
+</dl>
+<dl>
+    <dt>■姓</dt>
+    <dd>{$param.name1}</dd>
+</dl>
+<dl>
+    <dt>■名</dt>
+    <dd>{$param.name2}</dd>
+</dl>
+<dl>
+    <dt>■携帯電話番号</dt>
+    <dd>{$param.telno}</dd>
+</dl>
+<dl>
+    <dt>■合計金額</dt>
+    <dd class="red">{$orderingData.pay_total|number_format:"0"}円</dd>
+</dl>
+</div><!-- /#sum -->
+
+<div class="form80 mBtm20">
+    <input type="image" src="http://image.ko-haito.com/contents/settle/btnCvdChk.png" alt="申し込む" class="responsive">
 </div>
 </form>
-<br />
-<span style="color:#99ec00;">{""|emoji}</span><span style="font-size:small;"><a href="./?action_SettleCvd=1&{$URLparam}{if $comURLparam}&{$comURLparam}{/if}">内容を修正する</a></span><br />
-<br />
+<!-- コンビニ決済 -->
 
-<hr {$hr_2style} />
-<span style="color:#fc0;font-size:small;">※注意事項</span><br />
-万一決済が正常に終了しない場合は、コンビニダイレクトカスタマーサポート(0570-000-555)までご連絡ください。<br />
-メールや受付番号の再発行等は一切いたしませんので、削除せず大切に保管してください。<br />
-払込後にポイントが追加されない等のトラブルは直接加盟店様へお問い合わせください。 <br />
-お申し込み後はお早めにお支払いをお願いいたします。お申し込みがキャンセルとなる場合がございます。<br />
-ご購入にあたっては<a href="./?action_Rule=1{if $comURLparam}&{$comURLparam}{/if}">利用規約</a>に同意いただく必要があります。 <br />
-<br />
-※入金反映時間について<br />
-ﾌｧﾐﾘｰﾏｰﾄ ⇒ ご入金後10～30分程度<br />
-ﾛｰｿﾝ・ｾｲｺｰﾏｰﾄ ⇒ ご入金後2～3時間程度<br />
-※なお回線状況等で反映が遅れる場合がございますので予め時間に余裕を持った早めのお手続きをお願い申し上げます。<br />
-<hr {$hr_2style} />
-{*{include file=$footer}*}
-{* アフィリエイトタグ *}
-{$comImgTag}
+
+<!-- 修正 -->
+<form action="./?action_SettleCvd=1{if $comURLparam}&{$comURLparam}{/if}" method="post">
+{$FORMparam}
+<div class="form80 mBtm20">
+    <input type="image" src="http://image.ko-haito.com/contents/settle/btnCvdBack.png" alt="内容を修正する" class="responsive">
+</div>
+</form>
+<!-- 修正 -->
+
+
+<div class="notes block mBtm50">
+<p class="text">注意事項</p>
+<ul>
+    <li>万一決済が正常に終了しない場合は、コンビニダイレクトカスタマーサポート（0570-000-555）までご連絡ください｡</li>
+    <li>メールや受付番号の再発行等は一切いたしませんので、削除せず大切に保管してください。</li>
+    <li>払込後に{$ticket}が追加されない等のトラブルは直接加盟店様へお問い合わせください。</li>
+    <li>お申し込み後はお早めにお支払いをお願いいたします。お申し込みがキャンセルとなる場合がございます。</li>
+    <li>ご購入にあたっては<a href="./?action_rule=1&{$URLparam}{if $comURLparam}&{$comURLparam}{/if}">利用規約</a>に同意いただく必要があります。</li>
+</ul>
+</div>
+
+
+<div class="mBtm10">
+    <img src="http://image.ko-haito.com/contents/settle/txtSettleChange.png" alt="※他の決済方法に変更する場合はコチラ" class="responsive">
+</div>
+
+<!-- ******************** 決済メニュー ******************** -->
+<div class="settleMenuTitle">
+    <img src="http://image.ko-haito.com/contents/settle/ttlSettleSelect.png" alt="決済方法の選択">
+</div>
+<div class="settleList">
+
+{include file=$settle_sp}
+
+</div><!-- /.settleList -->
+<!-- ******************** 決済メニュー End ******************** -->
+
+{include file=$part_footer_sp}
+</div><!--end wrap-->
+
 </body>
 </html>
