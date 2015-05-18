@@ -1,4 +1,4 @@
-<?php
+z<?php
 header("Content-Type: text/html; charset=UTF-8");
 ?>
 {include file=$hedinfo_login_sp}

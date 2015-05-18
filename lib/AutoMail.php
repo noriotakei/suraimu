@@ -224,9 +224,16 @@ class AutoMail extends ComCommon implements InterfaceAutoMail {
             return true;
         }
 
+        //Get mobile domain name
         $SendMailOBJ = SendMail::getInstance();
-        $SendMailOBJ->setMailServerIp($this->_configOBJ->common_config->smtp_mail_server_ip->remail);
+
+        if (ComValidation::isMobileAddress($mailElements["to_address"])) {
+            $SendMailOBJ->setMailServerIp($this->_configOBJ->common_config->remail_mb_only->remail);
+        } else {
+            $SendMailOBJ->setMailServerIp($this->_configOBJ->common_config->smtp_mail_server_ip->remail);
+        }
         return $SendMailOBJ->smtpMailTo($mailElements, $sec, $imageData, $imageType);
+
     }
 
     /**

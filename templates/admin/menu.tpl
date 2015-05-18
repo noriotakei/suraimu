@@ -77,6 +77,14 @@
             <li><a href="http://p-send.com/" target="_blank">配信状況確認(反転)</a></li>
          -->
          <li><a href="http://p-send.com/" target="_blank">配信状況確認</a></li>
+         <li>
+             <a href="http://u0182.acemail.jp" target="_blank">配信状況確認(ACE)</a><br>
+            ID:administrator  PASS:L16zaSHwhC
+         </li>
+         <li>
+             <a href="http://sv58-2.mngsystem.com/user/" target="_blank">配信状況確認(セレナーデ)</a><br>
+           　ID sv58-2  <br>PASS Pof9kGd7jrS
+         </li>
     </ul>
 {/if}
 {* 広告 集計以外*}

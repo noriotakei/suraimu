@@ -873,13 +873,19 @@ class AdmMailMagazine extends AdmUser {
      *
      * @return mixed 予約メルマガリスト、失敗ならfalse
      */
-    public function getSendMailReserveList() {
+    public function getSendMailReserveList($isMobile = "") {
 
         $columnArray[] = "SQL_CALC_FOUND_ROWS *";
 
         $whereArray[] = "disable = 0";
         $whereArray[] = "is_send = 0";
         $whereArray[] = "send_datetime <= '" . date("YmdHi") . "00'";
+
+        if($isMobile){
+        	$whereArray[] = "is_mobile = 1";
+        }else{
+        	$whereArray[] = "is_mobile = 0";
+        }
 
         $sql = $this->makeSelectQuery("mailmagazine_reserve", $columnArray, $whereArray);
 

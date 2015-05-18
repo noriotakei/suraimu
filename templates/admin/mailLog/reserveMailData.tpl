@@ -254,6 +254,14 @@
                 {if $data.reverse_mail_status}強行メールする{/if}
             </td>
         </tr>
+        <tr>
+            <th>
+                セレナーデサーバー
+            </th>
+            <td>
+                {if $data.is_mobile}セレナーデサーバー使用する{/if}
+            </td>
+        </tr>
     </table>
     </div>
 {* 未配信 *}
@@ -426,6 +434,11 @@
         <tr>
             <td  style="text-align: center;" colspan="2">
                 <input type="checkbox" name="reverse_mail_status" value="1" {if $data.reverse_mail_status}checked{/if}/>強行メール
+            </td>
+        </tr>
+        <tr>
+            <td  style="text-align: center;" colspan="2">
+                <input type="checkbox" name="is_mobile" value="1" {if $data.is_mobile}checked{/if}/>セレナーデサーバー使用<span style="color:#FF0000;">(※予約のみ)</span>
             </td>
         </tr>
         <tr>

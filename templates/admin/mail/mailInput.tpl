@@ -393,6 +393,11 @@
         </tr>
         <tr>
             <td  style="text-align: center;" colspan="2">
+                <input type="checkbox" name="is_mobile" value="1" {if $param.is_mobile}checked{/if}/>セレナーデサーバー使用<span style="color:#FF0000;">(※予約のみ)</span>
+            </td>
+        </tr>
+        <tr>
+            <td  style="text-align: center;" colspan="2">
                 ※送信して、何も表示されなくても、<br>バックグラウンドで送信されていますので、注意して下さい。<br>
                 <input type="submit" id="submit" name="action_mail_MailSendExec" value="送信する" />
 {*

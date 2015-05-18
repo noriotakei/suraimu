@@ -201,7 +201,7 @@ class SendMail extends ComCommon {
         $postdata["from_nm"] = $mailElements["from_name"];
         $postdata["sbj"] = $sendSubject;
         $postdata["body"] = $sendTextBody;
-        $postdata["html"] = $mailElements["html_body"];
+        //$postdata["html"] = $mailElements["html_body"];
         $postdata["sec"] = $sec;
 
         // 画像があったら画像も送信

@@ -61,6 +61,7 @@ $mailLog["mb_subject"] = $param["mb_subject"];
 $mailLog["mb_text_body"] = $param["mb_text_body"];
 $mailLog["mb_html_body"] = $param["mb_html_body"];
 $mailLog["reverse_mail_status"] = $param["reverse_mail_status"];
+$mailLog["is_mobile"] = $param["is_mobile"];
 $mailLog["send_datetime"] = $timerDatetime;
 $mailLog["update_datetime"] = date("YmdHis");
 $mailLog["create_datetime"] = date("YmdHis");

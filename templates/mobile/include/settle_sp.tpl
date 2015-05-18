@@ -28,6 +28,7 @@
 </ul>
 
 <!-- ネットバンク -->
+<!-- 2015/05/18 ネットバンクは使用していません
 <ul class="netbank mBtm20">
     <li class="title clearfix">
         <div>ネット銀行でお支払い</div>
@@ -41,6 +42,7 @@
         </div>
     </li>
 </ul>
+ -->
 {if $itemTotalMoney <= 25000}
 <!-- ビットキャッシュ -->
 <ul class="bitcash mBtm20">

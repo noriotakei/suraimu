@@ -115,6 +115,7 @@
     <th>PC件名</th>
     <th>MB件名</th>
     <th>強行メール</th>
+    <th>配信会社</th>
     <th>配信状況</th>
     <th>作成日時</th>
     <th>削除</th>
@@ -127,6 +128,7 @@
         <td>{$val.pc_subject|emoji}</td>
         <td>{$val.mb_subject|emoji}</td>
         <td>{if $val.reverse_mail_status}強行メール{/if}</td>
+        <td>{if $val.is_mobile}セレナーデ{else}ACE{/if}</td>
         <td>{if $val.is_send}配信済み{else}<font color="red">未配信</font>{/if}</td>
         <td>{$val.create_datetime}</td>
         <td>

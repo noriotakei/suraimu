@@ -539,6 +539,7 @@ try{
         $mailLog["prize_mail_status"] = $param["prize_mail_status"];
         $mailLog["send_datetime"] = $timerDatetime;
         $mailLog["send_plans_count"] = $userListCnt;
+        $mailLog["is_mobile"] = $param["is_mobile"];
         $mailLog["create_datetime"] = date("YmdHis");
 
         // 検索条件
