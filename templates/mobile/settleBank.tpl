@@ -1,4 +1,4 @@
-z<?php
+<?php
 header("Content-Type: text/html; charset=UTF-8");
 ?>
 {include file=$hedinfo_login_sp}
@@ -47,9 +47,9 @@ header("Content-Type: text/html; charset=UTF-8");
         <div class="mBtm10">
         {$bankName}<br>
 {$branchName}<br>
-{$accountNumber}
-</div>
-        <span>{$transferDestination}</span>
+{$accountNumber}<br>
+<span>{$transferDestination}</span>
+</div>        
     </dd>
 </dl>
 <p class="alignC responsive">

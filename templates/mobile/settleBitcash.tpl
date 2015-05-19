@@ -22,7 +22,7 @@ header("Content-Type: text/html; charset=UTF-8");
 <div class="block mBtm20">
 {if $errMsg}<span style="color:#f00;font-size:142.9%;">{$errMsg}</span><br /><hr {$hr_1style} />{/if}
 <a href="http://www.bitcash.co.jp/i/sheet/index.html" target="_blank">※詳しい説明はコチラから</a><br />
-<a href="https://secure.bitcash.jp/my/bitcash/merge/" target="_blank">※残高引継ぎ（金額をまとめる）はコチラから</a><br />
+<a href="https://bitcash.jp/bitcash/merge" target="_blank">※残高引継ぎ（金額をまとめる）はコチラから</a><br />
 </div>
 
 
