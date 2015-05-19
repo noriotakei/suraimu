@@ -83,7 +83,7 @@
          </li>
          <li>
              <a href="http://sv58-2.mngsystem.com/user/" target="_blank">配信状況確認(セレナーデ)</a><br>
-           　ID sv58-2  <br>PASS Pof9kGd7jrS
+           　ID sv58-3  <br>PASS ploFkd90fjfRd85297
          </li>
     </ul>
 {/if}
