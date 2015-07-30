@@ -59,7 +59,7 @@ $AdmMailMagazineOBJ->commitTransaction();
 $intervalKey = 2;
 
 // SMTPホスト設定(通常・反転)
-$normalComSendMagicDeliveryOBJ->setSendMailServerIp($_config["common_config"]["remail_mb_only"]["sendMagic"]);
+$normalComSendMagicDeliveryOBJ->setSendMailServerIp($_config["common_config"]["smtp_mail_server_ip"]["sendMagic"]);
 $reverseComSendMagicDeliveryOBJ->setSendMailServerIp($_config["common_config"]["smtp_mail_server_ip"]["reverse"]);
 
 try{

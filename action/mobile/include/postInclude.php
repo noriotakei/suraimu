@@ -6,6 +6,7 @@ require_once($controllerOBJ->getIncludeBusinessLogic("quitPr"));
 require_once($controllerOBJ->getIncludeBusinessLogic("status"));
 require_once($controllerOBJ->getIncludeBusinessLogic("parts"));
 require_once($controllerOBJ->getIncludeBusinessLogic("quitPrStart"));
+require_once($controllerOBJ->getIncludeBusinessLogic("order"));
 
 // dioタグ設置
 $trackingTag = $controllerOBJ->getTrackingTag("dio");
@@ -27,7 +28,9 @@ $smartyOBJ->assign("remoteAddr", $_SERVER["REMOTE_ADDR"]);
 /**
  * Changing mb settlement layout
  */
+$smartyOBJ->assign("order", $controllerOBJ->getIncludeDispPage("order"));
 $smartyOBJ->assign("hedinfo_login_sp", $controllerOBJ->getIncludeDispPage("hedinfo_login_sp"));
 $smartyOBJ->assign("part_footer_sp", $controllerOBJ->getIncludeDispPage("part_footer_sp"));
 $smartyOBJ->assign("settle_sp", $controllerOBJ->getIncludeDispPage("settle_sp"));
+$smartyOBJ->assign("part_menu_login_sp", $controllerOBJ->getIncludeDispPage("part_menu_login_sp"));
 ?>

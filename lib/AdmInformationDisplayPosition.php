@@ -29,6 +29,9 @@ class AdmInformationDisplayPosition extends ComCommon implements InterfaceInform
             self::DISPLAY_POSITION_PC_PRE_TOP_CAMP           => "PCログイン前TOPキャンペーン",
             self::DISPLAY_POSITION_INFORMATION_OPEN          => "情報公開",
             self::DISPLAY_POSITION_INFORMATION_LIST          => "情報リストページ",
+            self::DISPLAY_POSITION_MB_HOME_MIDDLE_CAMP          => "MB購入キャンペーンの情報公開中",
+            self::DISPLAY_CD_QUIT_WEEKLY_RACE          => "今週の注目レース",
+            self::DISPLAY_POSITION_MB_HOME_INFORMATION_OPEN          => "MBチケット情報 公開中",
         );
 
     /* 入金状態状態 */

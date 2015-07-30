@@ -28,7 +28,8 @@ $UserOBJ = User::getInstance();
 
 //通常メルマガ用とひっぺ用ふたつインスタンス
 $normalComSendMagicDeliveryOBJ  = new ComSendMagicDelivery();
-$reverseComSendMagicDeliveryOBJ = new ComSendMagicDelivery();
+//$reverseComSendMagicDeliveryOBJ = new ComSendMagicDelivery();
+$normalComSendMagicDeliveryMbOBJ = new ComSendMagicDelivery();
 
 //$whereTestArray = "";
 //$whereTestArray[] = "id = 6249"; // norihisa_hosoda@fraise.jpへ
@@ -60,7 +61,8 @@ $intervalKey = 2;
 
 // SMTPホスト設定(通常・反転)
 $normalComSendMagicDeliveryOBJ->setSendMailServerIp($_config["common_config"]["smtp_mail_server_ip"]["sendMagic"]);
-$reverseComSendMagicDeliveryOBJ->setSendMailServerIp($_config["common_config"]["smtp_mail_server_ip"]["reverse"]);
+//$reverseComSendMagicDeliveryOBJ->setSendMailServerIp($_config["common_config"]["smtp_mail_server_ip"]["reverse"]);
+$normalComSendMagicDeliveryMbOBJ->setSendMailServerIp($_config["common_config"]["remail_mb_only"]["sendMagic"]);
 
 try{
 
@@ -163,7 +165,7 @@ try{
         $lastMailDomainKey = key($mailDomainArray);//最後の要素のキー
 
         // SMTP接続開始
-        if(!$normalComSendMagicDeliveryOBJ->openSmtpConnect() || !$reverseComSendMagicDeliveryOBJ->openSmtpConnect()){
+        if(!$normalComSendMagicDeliveryOBJ->openSmtpConnect() || !$normalComSendMagicDeliveryMbOBJ->openSmtpConnect()){
             $sendCnt["notSendNoRegCnt"]++;
             // デバッグメール
             $debugMail = "";
@@ -189,7 +191,7 @@ try{
 
             // 送信数が1000件でSMTP切断→再接続
             if ($sendUserCount != 0 && ($sendUserCount%1000) == 0) {
-                if(!$normalComSendMagicDeliveryOBJ->retryOpenSmtpConnect() || !$reverseComSendMagicDeliveryOBJ->retryOpenSmtpConnect()){
+                if(!$normalComSendMagicDeliveryOBJ->retryOpenSmtpConnect() || !$normalComSendMagicDeliveryMbOBJ->retryOpenSmtpConnect()){
                     // 接続エラーならば、次のループ送信処理
                     $sendCnt["notSendNoRegCnt"]++;
                     continue;
@@ -303,7 +305,7 @@ try{
                                 $sendResult = $normalComSendMagicDeliveryOBJ->sendMagicDelivery($sendMailData);
                             } elseif ($listValue["reverse_mail_status"] || $val["is_pc_reverse"]) {
                                 // 反転
-                                $sendResult = $reverseComSendMagicDeliveryOBJ->sendMagicDelivery($sendMailData);
+                                $sendResult = $normalComSendMagicDeliveryOBJ->sendMagicDelivery($sendMailData);
                             }
 
                             if (!$sendResult) {
@@ -402,13 +404,13 @@ try{
                             $sendResult = "";
                             if ($val["mb_mailmagazine_from_domain_id"] >= $lastMailDomainKey and !$listValue["reverse_mail_status"] and !$val["is_mb_reverse"]) {
                                 // 通常
-                                $sendResult = $normalComSendMagicDeliveryOBJ->sendMagicDelivery($sendMailData);
+                                $sendResult = $normalComSendMagicDeliveryMbOBJ->sendMagicDelivery($sendMailData);
                             } elseif (!$listValue["reverse_mail_status"] && !$val["is_mb_reverse"]) {
                                 // 通常
-                                $sendResult = $normalComSendMagicDeliveryOBJ->sendMagicDelivery($sendMailData);
+                                $sendResult = $normalComSendMagicDeliveryMbOBJ->sendMagicDelivery($sendMailData);
                             } elseif ($listValue["reverse_mail_status"] || $val["is_mb_reverse"]) {
                                 // 反転
-                                $sendResult = $reverseComSendMagicDeliveryOBJ->sendMagicDelivery($sendMailData);
+                                $sendResult = $normalComSendMagicDeliveryMbOBJ->sendMagicDelivery($sendMailData);
                             }
 
                             if (!$sendResult) {
@@ -486,7 +488,7 @@ try{
 
         // SMTP切断
         $normalComSendMagicDeliveryOBJ->closeSmtpConnect();
-        $reverseComSendMagicDeliveryOBJ->closeSmtpConnect();
+        $normalComSendMagicDeliveryMbOBJ->closeSmtpConnect();
 
         // メルマガログの追加
         $mailLog["interval_second"] = $intervalKey;

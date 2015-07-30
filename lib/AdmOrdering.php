@@ -72,6 +72,8 @@ class AdmOrdering extends ComCommon implements InterfaceOrdering {
     public static $_ordringDisplayCd = array(
                 self::ORDERING_DISPLAY_CD_PC_HOME    => "PCログイン後TOP",
                 self::ORDERING_DISPLAY_CD_PC_ITEMLIST    => "PC商品リスト",
+                self::ORDERING_DISPLAY_CD_MB_HOME    => "MBログイン後TOP",
+                self::ORDERING_DISPLAY_CD_MB_ITEMLIST    => "MB商品リスト",
                   );
     /** @var array キャンセルフラグ配列 */
     public static $_cancelFlag = array(

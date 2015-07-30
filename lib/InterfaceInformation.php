@@ -27,6 +27,9 @@ interface InterfaceInformation {
     const DISPLAY_POSITION_INFORMATION_OPEN         = "15"; // '情報公開'
     const DISPLAY_POSITION_INFORMATION_LIST         = "16"; // '情報リストページ'
     const DISPLAY_POSITION_HOME_TOP_CAMP            = "17"; // 'PC/MB共通ログイン後HOMETOPキャンペーン
+    const DISPLAY_POSITION_MB_HOME_MIDDLE_CAMP      = "18"; // 'MB購入キャンペーンの情報公開中'
+    const DISPLAY_CD_QUIT_WEEKLY_RACE               = "19"; // '今週の注目レース'
+    const DISPLAY_POSITION_MB_HOME_INFORMATION_OPEN     = "20"; // 'MBチケット情報 公開中'
 
     // 入金状態種別
     const PAY_STATUS_PAY     = 1;  // '入金あり'

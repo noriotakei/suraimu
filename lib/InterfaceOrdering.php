@@ -50,6 +50,8 @@ interface InterfaceOrdering {
     // 予約注文表示場所
     const ORDERING_DISPLAY_CD_PC_HOME = 1;  // PCログイン後トップ
     const ORDERING_DISPLAY_CD_PC_ITEMLIST = 2;  // PC商品リスト
+    const ORDERING_DISPLAY_CD_MB_HOME = 3;  // MBログイン後トップ
+    const ORDERING_DISPLAY_CD_MB_ITEMLIST = 4;  // MB商品リスト
 
 }
 

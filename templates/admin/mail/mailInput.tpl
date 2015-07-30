@@ -290,7 +290,7 @@
                 PCメルマガ添付画像
             </th>
             <td style="text-align: left;">
-                <input type="text" value='<img src="001">' size="20" class="selectText" readonly> <input type="file" name="pc_image[1]">  <br>        
+                <input type="text" value='<img src="001">' size="20" class="selectText" readonly> <input type="file" name="pc_image[1]">  <br>
                 <input type="text" value='<img src="002">' size="20" class="selectText" readonly> <input type="file" name="pc_image[2]">  <br>
                 <input type="text" value='<img src="003">' size="20" class="selectText" readonly> <input type="file" name="pc_image[3]">  <br>
                 <input type="text" value='<img src="004">' size="20" class="selectText" readonly> <input type="file" name="pc_image[4]">  <br>
@@ -393,7 +393,7 @@
         </tr>
         <tr>
             <td  style="text-align: center;" colspan="2">
-                <input type="checkbox" name="is_mobile" value="1" {if $param.is_mobile}checked{/if}/>セレナーデサーバー使用<span style="color:#FF0000;">(※予約のみ)</span>
+                <input type="checkbox" name="is_mobile" value="1" {if $param.is_mobile}checked{/if}/>セレナーデサーバー使用しない<span style="color:#FF0000;">(※予約のみ)</span>
             </td>
         </tr>
         <tr>

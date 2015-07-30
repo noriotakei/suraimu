@@ -14,6 +14,12 @@
  */
 
 require_once(D_BASE_DIR . "/common/post_common.php");
+
+// 予約注文表示設定取得
+$OrderingOBJ = Ordering::getInstance();
+$orderingDisplaySettingData = $OrderingOBJ->getOrderingDisplaySettingData(Ordering::ORDERING_DISPLAY_CD_MB_HOME);
+$dispLastOrderingFlag = $orderingDisplaySettingData["is_display"];
+
 require_once($controllerOBJ->getIncludeBusinessLogic("postInclude"));
 
 $infoStatusOBJ = InformationStatus::getInstance();
@@ -25,6 +31,9 @@ $dispPositionId = array();
 $dispPositionId[] = InformationStatus::DISPLAY_POSITION_POST_TOP_CAMP;
 $dispPositionId[] = InformationStatus::DISPLAY_POSITION_HOME_TOP_CAMP;
 $dispPositionId[] = InformationStatus::DISPLAY_POSITION_TOP;
+$dispPositionId[] = InformationStatus::DISPLAY_POSITION_MB_HOME_MIDDLE_CAMP;
+$dispPositionId[] = InformationStatus::DISPLAY_CD_QUIT_WEEKLY_RACE;
+$dispPositionId[] = InformationStatus::DISPLAY_POSITION_MB_HOME_INFORMATION_OPEN;
 
 // 情報リスト取得(結果セット：情報表示フォルダリスト(降順))
 $infoDispPositionList = array();
@@ -67,6 +76,8 @@ foreach ($infoDispPositionList as $positionData) {
             $val["user_bank_data"] = $userBankData ;
             $val["user_address_data"] =$userAddressData ;
             $val["user_free_word_data"] =$userFreeWordData ;
+            $val["display_position_cd"] =$positionData["cd"] ;
+
             $convertArray[$val["id"]] = $infoStatusOBJ->makeInformationConvertKey($val, $informationStatusLogList);
 
             // コンバート対象データを生成(情報HTML文だけ※バナーor詳細本文)
@@ -96,7 +107,7 @@ if ($informationDataForConvertList) {
 //ログイン後トップのアクセスを取る 一回のみ
 if($comUserData["home_access_datetime"]  == "0000-00-00 00:00:00"){
     $comUpdateHomeAccessData["home_access_datetime"] = date("YmdHis");
- 
+
     if (!$UserOBJ->updateUserData($comUpdateHomeAccessData, array("id=" . $comUserData["user_id"]))) {
         $ComErrSessOBJ->errMsg = $UserOBJ->getErrorMsg();
         header("Location: ./?action_Error=1" . ($comURLparam ? "&" . $comURLparam  : "") . ($sessId ? "&" . $sessId : ""));
@@ -110,6 +121,27 @@ $smartyOBJ->assign("bloodType", $_config["web_config"]["blood_type"]);
 $smartyOBJ->assign("month", $_config["web_config"]["month"]);
 $smartyOBJ->assign("day", $_config["web_config"]["day"]);
 
-$smartyOBJ->assign("dispInformationList", $dispInformationList);
+if($dispInformationList){
+    foreach($dispInformationList as $val){
+        if ($val["display_position_cd"] == InformationStatus::DISPLAY_POSITION_MB_HOME_MIDDLE_CAMP) {
+            $dispInformationListMiddle[$val["id"] ] = $val;
+        } elseif ($val["display_position_cd"] == InformationStatus::DISPLAY_CD_QUIT_WEEKLY_RACE) {
+            $dispInformationListQuitWeeklyRace[$val["id"] ] = $val;
+        } elseif ($val["display_position_cd"] == InformationStatus::DISPLAY_POSITION_MB_HOME_INFORMATION_OPEN) {
+            $dispInformationListHomeInformationOpen[$val["id"] ] = $val;
+        } else{
+           $dispInformationListTop[$val["id"] ] = $val;
+        }
+    }
+}
+/*
+$test = $dispInformationListTop[17175]  ;
+$dispInformationListTop =array() ;
+$dispInformationListTop[17175] = $test;
+*/
+$smartyOBJ->assign("dispInformationList", $dispInformationListTop);
+$smartyOBJ->assign("dispInformationListMiddle", $dispInformationListMiddle);
+$smartyOBJ->assign("dispInformationListQuitWeeklyRace", $dispInformationListQuitWeeklyRace);
+$smartyOBJ->assign("dispInformationListHomeInformationOpen", $dispInformationListHomeInformationOpen);
 
 ?>
