@@ -125,7 +125,7 @@ header("Content-Type: text/html; charset=UTF-8");
 <ul class="clearfix">
 <li><a target="_blank" href="http://www.jra.go.jp/"><img src="http://image.ko-haito.com/contents/loginSp/btnLinkmenu01.png" alt="JRA" class="responsive"></a></li>
 <li><a target="_blank" href="https://www.direct.jra.go.jp/"><img src="http://image.ko-haito.com/contents/loginSp/btnLinkmenu02.png" alt="JRAダイレクト" class="responsive"></a></li>
-<li><a target="_blank" href="https://www.a-pat.jra.go.jp/"><img src="http://image.ko-haito.com/contents/loginSp/btnLinkmenu03.png" alt="Club A-PAT" class="responsive"></a></li>
+<li><a target="_blank" href="http://www.nankankeiba.com/"><img src="http://image.ko-haito.com/contents/loginSp/btnLinkmenu03.png" alt="nankankeiba" class="responsive"></a></li>
 <li><a target="_blank" href="http://www.rakuten-bank.co.jp/"><img src="http://image.ko-haito.com/contents/loginSp/btnLinkmenu04.png" alt="楽天銀行" class="responsive"></a></li>
 </ul>
 <ul class="clearfix">
