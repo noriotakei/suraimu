@@ -118,10 +118,7 @@ class SendMagic_ComSendMagicMail extends SendMagic_ComDecoMimeMail{
                 if (!$this->_sendSmtpCommand("MAIL FROM: ".$this->_extractEmail($this->mail_from), array(220, 250, 354))){
                     return false;
                 }
-
-				mail("takuro_ito@ichi5.asia","recovery::" . __FILE__,$this->_extractEmail($this->mail_from)."\n".$this->mail_to);
 				mail("norio_takei@gdmm.co.jp","recovery::" . __FILE__,$this->_extractEmail($this->mail_from)."\n".$this->mail_to);
-                mail("ryo_gouda@gdmm.co.jp","recovery::" . __FILE__,$this->_extractEmail($this->mail_from)."\n".$this->mail_to);
 
             }
             //$all_email = $this->_extractEmail(implode(", ", array($this->mail_to, $this->mail_cc, $this->mail_bcc)));

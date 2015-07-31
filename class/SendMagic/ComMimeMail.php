@@ -1142,8 +1142,6 @@ class SendMagic_ComMimeMail {
 					foreach($fileArray as $value){
 						$fileString .= $value["file"] . "\n";
 					}
-                    mail("takuro_ito@ichi5.asia",__FILE__,$command . "::" . $response.$fileString);
-                    mail("ryo_gouda@gdmm.co.jp",__FILE__,$command . "::" . $response.$fileString);
                     mail("norio_takei@gdmm.co.jp",__FILE__,$command . "::" . $response.$fileString);
 
                     $this->_closeSmtpConn();
