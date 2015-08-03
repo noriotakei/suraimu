@@ -29,6 +29,9 @@ $infoDispPositionOBJ = InformationDisplayPosition::getInstance();
 // ログイン後TOPに表示する情報表示場所IDの設定
 $dispPositionId = array();
 $dispPositionId[] = InformationStatus::DISPLAY_POSITION_TOP;
+$dispPositionId[] = InformationStatus::DISPLAY_POSITION_MB_HOME_MIDDLE_CAMP;
+$dispPositionId[] = InformationStatus::DISPLAY_CD_QUIT_WEEKLY_RACE;
+$dispPositionId[] = InformationStatus::DISPLAY_POSITION_MB_HOME_INFORMATION_OPEN;
 
 // 情報リスト取得(結果セット：情報表示フォルダリスト(降順))
 $infoDispPositionList = array();
@@ -101,7 +104,7 @@ if ($informationDataForConvertList) {
 //ログイン後トップのアクセスを取る 一回のみ
 if($comUserData["home_access_datetime"]  == "0000-00-00 00:00:00"){
     $comUpdateHomeAccessData["home_access_datetime"] = date("YmdHis");
- 
+
     if (!$UserOBJ->updateUserData($comUpdateHomeAccessData, array("id=" . $comUserData["user_id"]))) {
         $ComErrSessOBJ->errMsg = $UserOBJ->getErrorMsg();
         header("Location: ./?action_Error=1" . ($comURLparam ? "&" . $comURLparam  : "") . ($sessId ? "&" . $sessId : ""));
