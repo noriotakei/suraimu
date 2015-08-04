@@ -82,8 +82,8 @@
             ID:administrator  PASS:L16zaSHwhC
          </li>
          <li>
-             <a href="http://sv58-2.mngsystem.com/user/" target="_blank">配信状況確認(セレナーデ)</a><br>
-           　ID sv58-3  <br>PASS ploFkd90fjfRd85297
+             <a href="http://sv63-2.mngsystem.com/user/" target="_blank">配信状況確認(セレナーデ)</a><br>
+           　ID sv63-2 <br>PASS kmdjFksj098fdssdj
          </li>
     </ul>
 {/if}
