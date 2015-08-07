@@ -157,6 +157,9 @@ $smartyOBJ->assign("registParam", $registParam);
 // 表示フラグ
 $smartyOBJ->assign("isDisplay", AdmInformationStatus::$_isDisplay);
 
+// ｽﾏﾎ表示切り替え
+$smartyOBJ->assign("isSmartPhone", AdmInformationStatus::$_isSmartPhone);
+
 // 全画面表示フラグ
 $smartyOBJ->assign("isAllDisplay", AdmInformationStatus::$_isAllDisplay);
 

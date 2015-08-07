@@ -322,6 +322,7 @@ $registData["redirect_url"]              = $param["redirect_url"];
 $registData["redirect_unit_information_id"]   = $param["redirect_unit_information_id"];
 $registData["redirect_unit_id"]   = $param["redirect_unit_id"];
 $registData["is_display"]                = $param["is_display"];
+$registData["is_smart_phone"]                = $param["is_smart_phone"];
 $registData["payment_status"]            = $param["payment_status"];
 $registData["is_all_display"]            = $param["is_all_display"];
 $registData["html_text_banner_pc"]       = $param["html_text_banner_pc"];

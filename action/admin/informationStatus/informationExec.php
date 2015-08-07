@@ -331,6 +331,7 @@ $registData["redirect_unit_information_id"]     = $param["redirect_unit_informat
 $registData["redirect_unit_id"]                     = $param["redirect_unit_id"];
 $registData["redirect_url"]                     = $param["redirect_url"];
 $registData["is_display"]                       = $param["is_display"];
+$registData["is_smart_phone"]                       = $param["is_smart_phone"];
 $registData["payment_status"]                   = $param["payment_status"];
 $registData["is_all_display"]                   = $param["is_all_display"];
 $registData["html_text_banner_pc"]              = $param["html_text_banner_pc"];
@@ -405,6 +406,7 @@ if ($param["update_type"]) {
                     $infoStatusCopyData["id"] = "";
                     $infoStatusCopyData["access_key"] = "";
                     $infoStatusCopyData["is_display"] = 0;
+                    $infoStatusCopyData["is_smart_phone"] = 0;
                     $infoStatusCopyData["create_datetime"] = date("YmdHis");
                     $infoStatusCopyData["update_datetime"] = date("YmdHis");
                     $infoStatusCopyData["is_copy"] = 1;

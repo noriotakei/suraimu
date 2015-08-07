@@ -159,6 +159,11 @@
                 <td style="text-align: center;">--</td>
             </tr>
             <tr>
+                <th>ｽﾏﾎ表示切り替え</th>
+                <td style="text-align: left;">{html_options name="is_smart_phone" options=$isSmartPhone selected=$param.is_smart_phone|default:0}</td>
+                <td style="text-align: center;">--</td>
+            </tr>
+            <tr>
                 <th>表示開始日時</th>
                 <td style="text-align: left;">
                     <input name="display_start_date" class="datepicker" type="text" value="{$param.display_start_datetime|zend_date_format:'yyyy-MM-dd'}" size="15" maxlength="10">

@@ -41,6 +41,12 @@ class AdmInformationStatus extends ComCommon implements InterfaceInformation {
                                     self::PAY_STATUS_NOT_PAY => "入金無し"
                                 );
 
+    /* ｽﾏﾎ表示切り替え */
+    public static $_isSmartPhone = array(
+            "0" => "非表示",
+            "1" => "表示中"
+    );
+
     /* 表示状態 */
     public static $_isDisplay = array(
                                     "0" => "非表示",
