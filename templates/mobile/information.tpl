@@ -7,10 +7,10 @@
          <link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/loginSp/login.css">
 
         </head>
+        <div class="wrap home">
         {eval var=$infoStatusData.html_text_mb|emoji}
         <hr {$hr_1style} />
         {* {include file=$footer} *}
-        <div class="wrap home">
         <ul class="footNavi clearfix">
             <li class="back">
                 <a href="./?action_Home=1"><img src="http://image.ko-haito.com/contents/settle/btnBackTop.png" alt="ログインTOPへ" class="responsive"></a>
@@ -37,8 +37,9 @@
 
         {eval var=$infoStatusData.html_text_mb|emoji}
         {* {include file=$status} *}
-        {include file=$footerMenu}
         <div class="wrap home">
+        {include file=$footerMenu}
+
         <div class="menu">
             <ul class="clearfix">
                 <li><a href="./?action_Rule=1">利用規約</a></li>
@@ -73,10 +74,10 @@
         <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
         <link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/loginSp/login.css">
         </head>
+         <div class="wrap home">
         {eval var=$infoStatusData.html_text_mb|emoji}
         <hr {$hr_1style} />
        {* {include file=$footer} *}
-        <div class="wrap home">
         <ul class="footNavi clearfix">
             <li class="back">
                 <a href="./?action_Home=1"><img src="http://image.ko-haito.com/contents/settle/btnBackTop.png" alt="ログインTOPへ" class="responsive"></a>
@@ -101,10 +102,11 @@
         </head>
         {eval var=$infoStatusData.html_text_mb|emoji}
         {*  {include file=$contentsMenu} *}
+        <div class="wrap home">
         {include file=$status}
         {include file=$footerMenu}
         {* {include file=$footer} *}
-        <div class="wrap home">
+
         <ul class="footNavi clearfix">
             <li class="back">
                 <a href="./?action_Home=1"><img src="http://image.ko-haito.com/contents/settle/btnBackTop.png" alt="ログインTOPへ" class="responsive"></a>
