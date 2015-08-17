@@ -3,13 +3,13 @@
     {if $infoStatusData.is_all_display}
 
         {include file=$hedinfo_login_sp}
-         <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-         <link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/loginSp/login.css">
-
         </head>
         <div class="wrap home">
+
         {eval var=$infoStatusData.html_text_mb|emoji}
         <hr {$hr_1style} />
+        {include file=$status}
+        {include file=$footerMenu}
         {* {include file=$footer} *}
         <ul class="footNavi clearfix">
             <li class="back">
@@ -30,13 +30,10 @@
 
     {else}
          {include file=$hedinfo_login_sp}
-         <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-         <link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/loginSp/login.css">
-
         </head>
 
         {eval var=$infoStatusData.html_text_mb|emoji}
-        {* {include file=$status} *}
+        {include file=$status}
         <div class="wrap home">
         {include file=$footerMenu}
 
@@ -71,12 +68,12 @@
 
     {if $infoStatusData.is_all_display}
         {include file=$header}
-        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/loginSp/login.css">
         </head>
          <div class="wrap home">
         {eval var=$infoStatusData.html_text_mb|emoji}
         <hr {$hr_1style} />
+        {include file=$status}
+        {include file=$footerMenu}
        {* {include file=$footer} *}
         <ul class="footNavi clearfix">
             <li class="back">
@@ -97,8 +94,6 @@
 
     {else}
         {include file=$header}
-        <link rel="stylesheet" type="text/css" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
-        <link rel="stylesheet" type="text/css" href="http://image.ko-haito.com/contents/loginSp/login.css">
         </head>
         {eval var=$infoStatusData.html_text_mb|emoji}
         {*  {include file=$contentsMenu} *}

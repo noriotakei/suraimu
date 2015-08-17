@@ -10,7 +10,7 @@
 <hr {$hr_1style} />
 <span style="color:#f00;font-size:small;">{""|emoji}変更が完了しました。</span><br />
 <hr {$hr_1style} />
-{include file=$contentsMenu}
+{* {include file=$contentsMenu} *}
 {include file=$status}
 {include file=$footerMenu}
 {include file=$pr}

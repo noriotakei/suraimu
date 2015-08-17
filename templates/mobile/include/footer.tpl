@@ -1,9 +1,17 @@
-<table width="96%" border="0" align="center" cellpadding="2" cellspacing="0">
-<tr>
-<td align="left" valign="bottom"><span style="font-size:x-small;"><span style="color:#f00;">{""|emoji}</span><a href="./?action_Home=1{if $comURLparam}&{$comURLparam}{/if}" accesskey="0">HOME{""|emoji}</a></span></td>
-<td align="right"><span style="font-size:x-small;"><a href="#top" accesskey="2">PageUp▲{""|emoji}</a><br /><a href="#down" accesskey="8">PageDown▼{""|emoji}</a></span></td>
-</tr>
-</table>
+    <div class="wrap home">
+        <ul class="footNavi clearfix">
+            <li class="back">
+                <a href="./?action_Home=1"><img src="http://image.ko-haito.com/contents/settle/btnBackTop.png" alt="ログインTOPへ" class="responsive"></a>
+            </li>
+            <li class="topPage">
+                <a href="#top"><img src="http://image.ko-haito.com/contents/settle/btnPageTop.png" alt="ページ上部へ" class="responsive"></a>
+            </li>
+        </ul>
+
+        <div class="footer">
+            &copy; オフィシャル競馬情報サイト-高配当.com-<br>All Rights Reserved.
+        </div>
+    </div>
 {* アフィリエイトタグ *}
 {$comImgTag}
-{include file=$copylight}
+{* {include file=$copylight} *}
