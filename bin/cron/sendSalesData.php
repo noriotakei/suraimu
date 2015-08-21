@@ -86,7 +86,7 @@ foreach((array)$orderingSalesDataList as $val){
 $sendPayMentData["siteCd"] = $_config["define"]["BLACK_SITE_CD"] ;
 
 //売上ﾃﾞｰﾀﾒｰﾙ送信処理のパス
-$path = "http://tatuya.jp/paymentDateReceive.php" ;
+$path = "http://ko-haito.com/paymentDateReceive.php" ;
 
 //売上ﾃﾞｰﾀのhttp通信
 if($sendPayMentData["thisMonthTotalPayMent"]){
